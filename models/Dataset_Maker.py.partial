@@ -1,0 +1,411 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from faker import Faker\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "fake = Faker()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "rootCause_list =[\"Poor Planning\",\n",
+    "                 \"Strike of workers\",\n",
+    "                 \"Poor Lead time calculation\",\n",
+    "                 \"Poor inventory control\",\n",
+    "                 \"faulty plant layout\",\n",
+    "                 \"excessive machine stoppage\",\n",
+    "                 \"electricty stoppage\",\n",
+    "                 \"Raw material low\",\n",
+    "                 \"material wastage due to over-feeding\",\n",
+    "                 \"Demand Variation\",\n",
+    "                 \"Huge backlog of orders\",\n",
+    "                 \"Supply Shortages and logistical uncertainties\",\n",
+    "                 \"Factory shutdown\",\n",
+    "                 \"Financial problems of company leading to interrupted supplies\",\n",
+    "                 \"Transport Delays\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "place_list = [\"Bangalore\",\n",
+    "              \"Hyderabad\",\n",
+    "              \"Chennai\",\n",
+    "              \"Delhi\",\n",
+    "              \"Lucknow\",\n",
+    "              \"Jaipur\",\n",
+    "              \"Kolkata\",\n",
+    "              \"Gowahati\",\n",
+    "              \"Imphal\",\n",
+    "              \"Indore\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "product_list = [\"SSD\"\n",
+    "               ,\"Mouse\"\n",
+    "               ,\"Keyboard\"\n",
+    "               ,\"Laptop\"\n",
+    "               ,\"RAM\"\n",
+    "               ,\"HDD\"\n",
+    "               ,\"Screen\"\n",
+    "               ,\"Server\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "weight = [\"Very Low\"\n",
+    "         ,\"Low\"\n",
+    "         ,\"Medium\"\n",
+    "         ,\"High\"\n",
+    "         ,\"Very High\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "distance = [\"Very Low\"\n",
+    "         ,\"Low\"\n",
+    "         ,\"Medium\"\n",
+    "         ,\"High\"\n",
+    "         ,\"Very High\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "day = [\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"]\n",
+    "holiday = [\"True\",\"False\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "month_list = [\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Lucknow Dec\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(fake.word(place_list),fake.word(mproduct_list))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import xlrd, xlwt\n",
+    "from xlwt import Workbook"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "\n",
+    "workbook = xlwt.Workbook()\n",
+    "sheet1 = workbook.add_sheet('test')\n",
+    "\n",
+    "sheet1.write(0, 0, 'Place')\n",
+    "sheet1.write(0, 1, 'Month') \n",
+    "sheet1.write(0, 2, 'Product') \n",
+    "sheet1.write(0, 3, 'Weight') \n",
+    "sheet1.write(0, 4, 'Distance') \n",
+    "sheet1.write(0, 5, 'Day') \n",
+    "sheet1.write(0, 6, 'Holiday') \n",
+    "sheet1.write(0, 7, 'Root Cause') \n",
+    "\n",
+    "\n",
+    "\n",
+    " \n",
+    "  \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'sheet1' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-12-f68ff417d776>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;32mfor\u001b[0m \u001b[0mi\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mrange\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m100\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m     \u001b[0msheet1\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwrite\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mi\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m0\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfake\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mword\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mplace_list\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m     \u001b[0msheet1\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwrite\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mi\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m1\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mfake\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mword\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmonth_list\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m     \u001b[0msheet1\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwrite\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mi\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m2\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfake\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mword\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mproduct_list\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m     \u001b[0msheet1\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwrite\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mi\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m3\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfake\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mword\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mweight\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'sheet1' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(0,100):\n",
+    "    sheet1.write(i, 0, fake.word(place_list))\n",
+    "    sheet1.write(i, 1,fake.word(month_list))\n",
+    "    sheet1.write(i, 2, fake.word(product_list)) \n",
+    "    sheet1.write(i, 3, fake.word(weight)) \n",
+    "    sheet1.write(i, 4, fake.word(distance)) \n",
+    "    sheet1.write(i, 5, fake.word(day)) \n",
+    "    sheet1.write(i, 6, fake.word(holiday)) \n",
+    "    sheet1.write(i, 7, fake.word(rootCause_list)) \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "workbook.save(\"dataset 2.xls\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "loc = (\"dataset 1.xls\") \n",
+    "  \n",
+    "rb = xlrd.open_workbook(loc) \n",
+    "sheet2 = rb.sheet_by_index(0) \n",
+    "sheet2.cell_value(0, 0) \n",
+    "\n",
+    "list = []\n",
+    "  \n",
+    "for i in range(sheet2.nrows): \n",
+    "    list.append(sheet2.row_values(i)) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[['Gowahati', 'Sep', 'Mouse', 'Poor inventory control'],\n",
+       " ['Hyderabad',\n",
+       "  'Jul',\n",
+       "  'Laptop',\n",
+       "  'Financial problems of company leading to interrupted supplies'],\n",
+       " ['Jaipur', 'Feb', 'SSD', 'Strike of workers'],\n",
+       " ['Gowahati',\n",
+       "  'Aug',\n",
+       "  'Mouse',\n",
+       "  'Financial problems of company leading to interrupted supplies'],\n",
+       " ['Jaipur', 'Oct', 'Mouse', 'Transport Delays'],\n",
+       " ['Imphal', 'Feb', 'Mouse', 'Poor Lead time calculation'],\n",
+       " ['Jaipur', 'May', 'SSD', 'Huge backlog of orders'],\n",
+       " ['Hyderabad', 'Nov', 'Mouse', 'Transport Delays'],\n",
+       " ['Lucknow', 'Jan', 'Keyboard', 'electricty stoppage'],\n",
+       " ['Hyderabad', 'Sep', 'Mouse', 'Poor Planning'],\n",
+       " ['Bangalore', 'Jan', 'RAM', 'faulty plant layout'],\n",
+       " ['Hyderabad', 'Nov', 'Laptop', 'Raw material low'],\n",
+       " ['Gowahati',\n",
+       "  'Jun',\n",
+       "  'Keyboard',\n",
+       "  'Financial problems of company leading to interrupted supplies'],\n",
+       " ['Delhi', 'Feb', 'Mouse', 'Transport Delays'],\n",
+       " ['Hyderabad',\n",
+       "  'Nov',\n",
+       "  'Laptop',\n",
+       "  'Supply Shortages and logistical uncertainties'],\n",
+       " ['Delhi', 'Jun', 'Mouse', 'Huge backlog of orders'],\n",
+       " ['Jaipur', 'Jan', 'SSD', 'Poor Planning'],\n",
+       " ['Bangalore', 'Sep', 'Keyboard', 'excessive machine stoppage'],\n",
+       " ['Chennai', 'Jun', 'SSD', 'Poor inventory control'],\n",
+       " ['Kolkata', 'Oct', 'Laptop', 'faulty plant layout'],\n",
+       " ['Kolkata', 'May', 'Keyboard', 'Poor Lead time calculation'],\n",
+       " ['Jaipur', 'Jun', 'SSD', 'material wastage due to over-feeding'],\n",
+       " ['Indore', 'Nov', 'Keyboard', 'Raw material low'],\n",
+       " ['Imphal', 'Jul', 'Laptop', 'material wastage due to over-feeding'],\n",
+       " ['Delhi', 'Nov', 'RAM', 'Raw material low'],\n",
+       " ['Gowahati', 'Jan', 'Laptop', 'Poor Planning'],\n",
+       " ['Hyderabad', 'Oct', 'Mouse', 'material wastage due to over-feeding'],\n",
+       " ['Bangalore', 'Mar', 'Mouse', 'Factory shutdown'],\n",
+       " ['Lucknow', 'Dec', 'SSD', 'Huge backlog of orders'],\n",
+       " ['Kolkata',\n",
+       "  'Jan',\n",
+       "  'Mouse',\n",
+       "  'Financial problems of company leading to interrupted supplies'],\n",
+       " ['Chennai', 'Oct', 'RAM', 'Strike of workers'],\n",
+       " ['Gowahati', 'Apr', 'SSD', 'electricty stoppage'],\n",
+       " ['Bangalore', 'Oct', 'Mouse', 'Strike of workers'],\n",
+       " ['Jaipur', 'Oct', 'SSD', 'Demand Variation'],\n",
+       " ['Gowahati', 'Mar', 'Keyboard', 'Huge backlog of orders'],\n",
+       " ['Chennai', 'Feb', 'Laptop', 'Raw material low'],\n",
+       " ['Jaipur', 'May', 'RAM', 'material wastage due to over-feeding'],\n",
+       " ['Hyderabad', 'Apr', 'SSD', 'Strike of workers'],\n",
+       " ['Indore', 'Sep', 'Keyboard', 'Poor Lead time calculation'],\n",
+       " ['Jaipur', 'Dec', 'Keyboard', 'Raw material low'],\n",
+       " ['Chennai', 'Jul', 'Laptop', 'Factory shutdown'],\n",
+       " ['Jaipur', 'Jul', 'RAM', 'Huge backlog of orders'],\n",
+       " ['Kolkata', 'Apr', 'SSD', 'excessive machine stoppage'],\n",
+       " ['Chennai', 'May', 'SSD', 'Transport Delays'],\n",
+       " ['Imphal', 'Oct', 'Mouse', 'electricty stoppage'],\n",
+       " ['Delhi', 'Sep', 'RAM', 'faulty plant layout'],\n",
+       " ['Gowahati', 'Dec', 'Mouse', 'Transport Delays'],\n",
+       " ['Jaipur',\n",
+       "  'Dec',\n",
+       "  'Laptop',\n",
+       "  'Financial problems of company leading to interrupted supplies'],\n",
+       " ['Indore', 'May', 'Mouse', 'Poor Planning'],\n",
+       " ['Delhi', 'Feb', 'Keyboard', 'Supply Shortages and logistical uncertainties'],\n",
+       " ['Kolkata', 'Mar', 'Mouse', 'Supply Shortages and logistical uncertainties'],\n",
+       " ['Imphal', 'Aug', 'Mouse', 'Poor Lead time calculation'],\n",
+       " ['Kolkata', 'Dec', 'Keyboard', 'Poor Planning'],\n",
+       " ['Kolkata', 'Feb', 'Mouse', 'Raw material low'],\n",
+       " ['Lucknow', 'Nov', 'Keyboard', 'Demand Variation'],\n",
+       " ['Lucknow', 'Jun', 'Mouse', 'electricty stoppage'],\n",
+       " ['Delhi', 'Oct', 'RAM', 'material wastage due to over-feeding'],\n",
+       " ['Jaipur', 'Jun', 'SSD', 'Poor inventory control'],\n",
+       " ['Lucknow', 'Aug', 'Laptop', 'Supply Shortages and logistical uncertainties'],\n",
+       " ['Indore', 'Mar', 'RAM', 'material wastage due to over-feeding'],\n",
+       " ['Chennai', 'Sep', 'Keyboard', 'Huge backlog of orders'],\n",
+       " ['Jaipur', 'Dec', 'RAM', 'Supply Shortages and logistical uncertainties'],\n",
+       " ['Bangalore', 'May', 'RAM', 'faulty plant layout'],\n",
+       " ['Delhi', 'Dec', 'Laptop', 'electricty stoppage'],\n",
+       " ['Kolkata', 'Oct', 'Laptop', 'Strike of workers'],\n",
+       " ['Jaipur',\n",
+       "  'Jan',\n",
+       "  'Keyboard',\n",
+       "  'Financial problems of company leading to interrupted supplies'],\n",
+       " ['Imphal', 'Feb', 'RAM', 'Transport Delays'],\n",
+       " ['Indore', 'Jun', 'Mouse', 'Demand Variation'],\n",
+       " ['Gowahati', 'Sep', 'RAM', 'excessive machine stoppage'],\n",
+       " ['Bangalore', 'Jul', 'SSD', 'excessive machine stoppage'],\n",
+       " ['Indore',\n",
+       "  'Jan',\n",
+       "  'Keyboard',\n",
+       "  'Financial problems of company leading to interrupted supplies'],\n",
+       " ['Jaipur', 'Jul', 'Keyboard', 'Poor Lead time calculation'],\n",
+       " ['Jaipur', 'Jul', 'Laptop', 'Demand Variation'],\n",
+       " ['Bangalore', 'Nov', 'RAM', 'faulty plant layout'],\n",
+       " ['Delhi',\n",
+       "  'Nov',\n",
+       "  'Laptop',\n",
+       "  'Financial problems of company leading to interrupted supplies'],\n",
+       " ['Jaipur', 'Feb', 'Laptop', 'faulty plant layout'],\n",
+       " ['Imphal', 'Jul', 'Mouse', 'Strike of workers'],\n",
+       " ['Hyderabad', 'May', 'RAM', 'Poor Planning'],\n",
+       " ['Hyderabad', 'Jan', 'Laptop', 'Factory shutdown'],\n",
+       " ['Kolkata', 'Feb', 'Laptop', 'material wastage due to over-feeding'],\n",
+       " ['Hyderabad', 'Mar', 'Mouse', 'Huge backlog of orders'],\n",
+       " ['Chennai', 'Jan', 'Mouse', 'Poor Planning'],\n",
+       " ['Jaipur', 'Jul', 'Keyboard', 'Raw material low'],\n",
+       " ['Kolkata', 'Aug', 'Mouse', 'Demand Variation'],\n",
+       " ['Kolkata', 'Jun', 'SSD', 'Poor Lead time calculation'],\n",
+       " ['Bangalore', 'Aug', 'Keyboard', 'material wastage due to over-feeding'],\n",
+       " ['Jaipur', 'Apr', 'Laptop', 'Demand Variation'],\n",
+       " ['Jaipur', 'Oct', 'Mouse', 'Strike of workers'],\n",
+       " ['Lucknow', 'Aug', 'SSD', 'Transport Delays'],\n",
+       " ['Kolkata', 'May', 'Keyboard', 'material wastage due to over-feeding'],\n",
+       " ['Indore', 'Feb', 'Mouse', 'electricty stoppage'],\n",
+       " ['Bangalore', 'Feb', 'Laptop', 'Huge backlog of orders'],\n",
+       " ['Lucknow', 'Nov', 'SSD', 'Factory shutdown'],\n",
+       " ['Delhi', 'Sep', 'RAM', 'electricty stoppage'],\n",
+       " ['Chennai',\n",
+       "  'Nov',\n",
+       "  'Laptop',\n",
+       "  'Financial problems of company leading to interrupted supplies'],\n",
+       " ['Jaipur', 'Mar', 'RAM', 'material wastage due to over-feeding'],\n",
+       " ['Imphal', 'Sep', 'Mouse', 'Huge backlog of orders'],\n",
+       " ['Imphal', 'Aug', 'Mouse', 'Demand Variation'],\n",
+       " ['Indore', 'May', 'SSD', 'Poor Lead time calculation'],\n",
+       " ['Lucknow', 'Feb', 'SSD', 'Factory shutdown']]"
+      ]
+     },
+     "execution_count": 51,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
