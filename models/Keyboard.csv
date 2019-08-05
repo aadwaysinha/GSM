@@ -1,0 +1,501 @@
+InventoryToFactoryDistance,IsHoliday,ModeOfDelivery,Month,ProfitToCompany,Quantity,RootCause,TotalWeight,Year
+6567,True,Water,Aug,8150555,2216,Raw material low,607272,2002
+5249,False,Airways,Dec,861947,4129,Poor inventory control,706433,2008
+7250,True,Road,Mar,5847283,3132,Raw material low,912823,2010
+4478,False,Rail,Jan,7544489,8697,Poor Lead time calculation,362381,2017
+8444,True,Rail,Apr,1890648,7860,faulty plant layout,213687,2001
+8734,True,Rail,Apr,5728284,5218,Demand Variation,177962,2009
+6331,False,Rail,Nov,507535,9307,Poor inventory control,455767,2017
+6695,False,Road,Feb,1189046,1386,Raw material low,125770,2018
+5461,True,Airways,Jan,4374034,8098,Financial problems of company leading to interrupted supplies,338897,2004
+8493,False,Road,Oct,672079,5343,Poor Lead time calculation,882540,2004
+3134,True,Airways,Jun,1829973,4233,Poor Planning,663216,2018
+3337,False,Water,Aug,4742448,8610,electricty stoppage,795018,2012
+6310,False,Water,Nov,1764504,7145,electricty stoppage,472290,2013
+1960,True,Water,May,1403410,5215,Demand Variation,335978,2003
+2913,True,Airways,Dec,3132186,7240,Transport Delays,257298,2002
+9861,False,Road,Jan,8259295,7816,faulty plant layout,875476,2004
+3307,True,Rail,Mar,1188188,5683,Raw material low,765192,2005
+5635,False,Airways,Jan,7153116,3391,faulty plant layout,935799,2001
+8181,True,Road,Oct,2554204,6433,Transport Delays,707408,2018
+8283,False,Road,Mar,8152591,5542,Demand Variation,454885,2003
+5989,False,Road,Sep,1440208,7334,Huge backlog of orders,320969,2012
+4822,False,Road,Feb,4449546,7723,Poor Planning,539214,2015
+8111,True,Water,Nov,3424470,2877,Poor inventory control,228399,2018
+5308,True,Rail,Jul,4838864,9948,Transport Delays,884607,2017
+7225,True,Rail,Jul,520647,9084,Poor Planning,907832,2012
+973,False,Rail,Feb,1378639,2567,material wastage due to over-feeding,715220,2017
+8107,False,Airways,May,8705863,6080,Strike of workers,314187,2010
+3555,True,Rail,Feb,821577,4544,faulty plant layout,639812,2010
+7724,True,Airways,Oct,535489,7298,Strike of workers,183739,2015
+5309,False,Rail,Apr,948122,7736,Strike of workers,999303,2010
+3107,False,Airways,Feb,1677350,6695,material wastage due to over-feeding,637276,2014
+9511,False,Road,Oct,3966910,8519,Raw material low,441850,2012
+8532,False,Airways,Jul,916308,6843,Financial problems of company leading to interrupted supplies,272190,2018
+3497,True,Airways,May,2320111,1505,electricty stoppage,409724,2018
+3977,False,Rail,Jan,6032934,2320,Raw material low,880115,2010
+3737,False,Road,Mar,767325,4307,electricty stoppage,485173,2005
+3261,True,Water,Feb,7724633,6426,Financial problems of company leading to interrupted supplies,189702,2017
+4617,False,Water,Sep,9683142,3113,electricty stoppage,527318,2017
+8846,True,Road,Apr,1433229,4969,Strike of workers,943727,2011
+7643,False,Water,Sep,4030856,5267,faulty plant layout,215598,2005
+8193,True,Rail,Nov,76317,7536,faulty plant layout,640238,2017
+3723,False,Water,Aug,1871441,9371,faulty plant layout,244408,2009
+7510,False,Water,Mar,6062718,7671,Poor Lead time calculation,560665,2017
+6155,True,Road,Aug,9108534,3068,Transport Delays,753398,2007
+2587,False,Road,Jul,622316,8613,electricty stoppage,355218,2018
+1349,True,Water,Aug,7464940,7824,Raw material low,901334,2009
+8422,True,Water,Jun,1041277,7245,Poor inventory control,675630,2011
+5000,True,Water,Aug,1655347,1285,Factory shutdown,766296,2012
+3337,True,Road,Oct,6002166,4246,Huge backlog of orders,427684,2002
+3869,True,Rail,Sep,5892375,8034,excessive machine stoppage,764486,2013
+1866,False,Rail,Mar,6985099,7497,electricty stoppage,201438,2007
+2665,True,Road,May,3704801,8079,Poor inventory control,533978,2002
+2298,False,Water,Apr,3495714,7751,Transport Delays,555598,2009
+8205,False,Airways,Feb,9696038,805,electricty stoppage,276871,2003
+3289,False,Water,Sep,7698034,1940,Demand Variation,189874,2013
+4337,False,Airways,Nov,4106207,8037,Poor Lead time calculation,476795,2011
+7108,False,Rail,Jul,7862001,8759,Raw material low,468137,2011
+6468,True,Rail,Jun,8427179,5549,Financial problems of company leading to interrupted supplies,228730,2017
+1082,False,Airways,Oct,8455626,6925,faulty plant layout,144629,2011
+5829,False,Airways,Feb,5958139,3180,Strike of workers,359446,2016
+1590,True,Airways,May,4621994,7609,electricty stoppage,383375,2007
+1656,False,Water,Apr,5581628,4140,material wastage due to over-feeding,427692,2009
+6918,False,Airways,Jun,2517457,6894,Poor inventory control,99704,2008
+5176,True,Airways,Apr,2080339,5324,Raw material low,600534,2007
+3374,True,Rail,Nov,7292001,4563,Supply Shortages and logistical uncertainties,900964,2017
+6442,True,Rail,Sep,6559504,6946,Raw material low,33978,2004
+7781,True,Road,Oct,5590082,1569,Financial problems of company leading to interrupted supplies,691737,2016
+7018,True,Water,Feb,9077868,3839,Strike of workers,524173,2008
+9396,True,Airways,Dec,4820273,4581,electricty stoppage,185712,2018
+4831,False,Road,Sep,5245977,9449,Poor Lead time calculation,546065,2001
+5703,False,Airways,Mar,6486253,5294,Raw material low,111484,2003
+4531,False,Water,Dec,5120732,9707,Transport Delays,767393,2009
+7298,False,Water,Dec,4974630,938,Financial problems of company leading to interrupted supplies,232828,2003
+6918,False,Rail,Mar,5035849,3517,Supply Shortages and logistical uncertainties,835871,2003
+7389,True,Rail,Sep,5207949,2301,Poor Planning,907146,2001
+7808,False,Water,Jul,4066979,9637,Supply Shortages and logistical uncertainties,401752,2015
+4550,False,Road,Jul,6439310,920,Poor inventory control,781054,2008
+791,True,Rail,Jul,8970984,7745,electricty stoppage,717252,2001
+9050,True,Airways,Jan,864476,4667,Raw material low,214639,2012
+6362,True,Road,Apr,3454867,9345,Strike of workers,961387,2008
+3723,False,Airways,Jan,8804418,9239,Poor Planning,299889,2001
+7526,False,Rail,Jul,1197498,6701,Strike of workers,170323,2013
+6592,True,Airways,May,9303347,7361,Factory shutdown,662188,2010
+7675,False,Water,Jul,1005228,5186,electricty stoppage,809616,2008
+7729,False,Airways,Feb,4538413,1137,Poor Lead time calculation,181375,2014
+4642,False,Airways,Oct,3638665,2584,Poor Lead time calculation,478908,2008
+6937,False,Rail,Jun,8520435,4991,electricty stoppage,187808,2001
+5144,False,Rail,Jul,1667607,2384,Poor Planning,208131,2005
+7865,True,Rail,Aug,5469196,1455,Financial problems of company leading to interrupted supplies,391197,2015
+3042,False,Airways,Jul,7186476,7592,Supply Shortages and logistical uncertainties,455343,2011
+3375,True,Water,Jun,3892307,1361,electricty stoppage,670380,2017
+7255,True,Airways,May,2069440,5176,faulty plant layout,679267,2012
+6734,True,Rail,Dec,7628237,8182,Raw material low,819674,2011
+4390,True,Road,Mar,3937307,4139,Factory shutdown,160751,2008
+4405,True,Rail,Dec,7951528,1437,Transport Delays,181375,2008
+5611,False,Water,Sep,8641635,1452,Poor Planning,949572,2013
+1918,True,Rail,Oct,4894025,1233,Factory shutdown,954357,2003
+3543,True,Airways,Jul,5310774,5508,electricty stoppage,407124,2005
+7418,False,Water,Oct,9337947,6971,Financial problems of company leading to interrupted supplies,891371,2005
+5507,True,Airways,Aug,2791204,7895,Huge backlog of orders,627049,2018
+5853,True,Water,Mar,9352992,3472,Raw material low,242817,2009
+2909,True,Water,Nov,3004927,9768,Poor Planning,607738,2006
+3680,False,Airways,Sep,5010939,6855,Financial problems of company leading to interrupted supplies,423200,2001
+7469,False,Road,Apr,3767487,6470,Demand Variation,87291,2010
+9215,True,Water,Jul,4753015,9755,Poor inventory control,240120,2013
+7160,False,Water,Mar,1087414,6245,Financial problems of company leading to interrupted supplies,413153,2016
+9344,False,Rail,Feb,8396578,9183,Poor Planning,760807,2009
+6138,True,Rail,Oct,5958139,3927,Poor inventory control,615104,2004
+8112,True,Rail,Sep,6797965,5650,Huge backlog of orders,447508,2015
+9511,False,Airways,Jun,7836438,4253,Transport Delays,471532,2014
+7318,False,Water,Dec,8325673,5613,Factory shutdown,468538,2015
+2231,True,Water,Sep,8741412,4043,Factory shutdown,149235,2014
+5510,False,Water,Aug,1751068,1213,Supply Shortages and logistical uncertainties,841048,2016
+2285,True,Road,Jul,8086163,8042,Raw material low,751185,2003
+9100,True,Road,Nov,3801176,9769,Demand Variation,829695,2013
+2977,True,Water,Oct,6638377,6543,Supply Shortages and logistical uncertainties,241447,2011
+3960,True,Road,Oct,1126328,7749,Poor Planning,384449,2009
+3133,False,Rail,Sep,1409476,1224,Demand Variation,995717,2018
+1767,True,Airways,Jan,2260740,3785,faulty plant layout,882675,2011
+6983,False,Road,Oct,3570709,9126,Demand Variation,371463,2008
+8766,True,Road,Sep,5016824,9271,Raw material low,944021,2010
+8822,False,Rail,Nov,3312618,5492,Poor inventory control,237317,2010
+4902,False,Airways,Jan,1979560,2618,Huge backlog of orders,981721,2018
+1983,True,Road,Aug,3066790,4559,Demand Variation,10241,2011
+9737,False,Water,May,6737286,1905,material wastage due to over-feeding,790418,2001
+2251,False,Road,Feb,8345730,7915,material wastage due to over-feeding,890480,2001
+4849,True,Water,Jan,3551872,2424,Poor Lead time calculation,553989,2017
+1197,True,Water,Aug,3360672,6429,Poor Planning,796853,2017
+3233,False,Road,Sep,7464148,8237,Raw material low,972844,2006
+9584,False,Rail,Mar,972686,2980,excessive machine stoppage,27052,2005
+4731,True,Airways,Sep,9885942,8958,Huge backlog of orders,450680,2008
+3389,True,Road,Sep,7743707,1589,material wastage due to over-feeding,411195,2009
+2041,False,Airways,Dec,5588926,3965,Transport Delays,118102,2007
+1499,True,Airways,Dec,4838864,6429,Huge backlog of orders,368407,2002
+5159,False,Water,Dec,266757,9342,Poor inventory control,659357,2016
+4336,True,Rail,Nov,2706022,2632,Poor Planning,599829,2006
+2105,True,Rail,Jun,3109994,7668,faulty plant layout,286293,2011
+4659,False,Rail,Dec,827592,6898,Supply Shortages and logistical uncertainties,229110,2017
+6667,True,Water,Nov,1593517,9157,Demand Variation,895764,2006
+2323,True,Rail,Mar,5957697,6981,Huge backlog of orders,753045,2018
+9392,True,Rail,Jun,8459784,7516,excessive machine stoppage,957332,2006
+1567,True,Road,Jun,3822416,8741,Poor Planning,206939,2017
+4275,False,Road,Oct,7354393,9365,excessive machine stoppage,610558,2001
+9056,True,Road,Aug,5758300,6999,Financial problems of company leading to interrupted supplies,723282,2017
+5969,False,Rail,Nov,9599446,4040,excessive machine stoppage,828813,2006
+8756,True,Rail,Mar,2697540,8568,Supply Shortages and logistical uncertainties,216466,2010
+5792,False,Rail,Dec,5152714,3856,Poor Planning,390070,2015
+7878,True,Rail,Jul,9164079,9022,Factory shutdown,783837,2015
+6344,False,Rail,Jul,9083579,9183,Demand Variation,82840,2012
+2040,True,Airways,Mar,7790662,7760,excessive machine stoppage,928564,2008
+4099,False,Rail,Apr,8875160,5427,Strike of workers,351749,2004
+6295,False,Airways,Nov,7352521,1454,Supply Shortages and logistical uncertainties,412053,2009
+2169,False,Rail,Aug,1249020,1248,electricty stoppage,816209,2001
+4331,False,Road,Feb,6784159,3916,Transport Delays,629244,2002
+734,False,Water,Apr,5691878,7921,Poor inventory control,946582,2008
+1370,True,Water,Aug,5273444,2914,Demand Variation,74278,2004
+7715,False,Rail,Apr,2614762,8023,Factory shutdown,346351,2014
+7094,False,Water,Jan,5720082,4628,excessive machine stoppage,299276,2013
+4930,True,Road,Jul,2724891,6731,Strike of workers,856155,2008
+997,False,Road,Jul,436392,7389,Strike of workers,945276,2002
+8555,False,Rail,Jan,9154056,9695,Poor Lead time calculation,55329,2007
+7974,True,Rail,Sep,3269340,2880,Supply Shortages and logistical uncertainties,27649,2011
+4905,True,Airways,Nov,9325292,1522,Huge backlog of orders,369828,2008
+7741,False,Road,Mar,5319217,7525,faulty plant layout,925944,2005
+4158,False,Road,Nov,2738277,734,Factory shutdown,257040,2006
+3646,True,Airways,Mar,3530035,4036,Demand Variation,363552,2005
+6510,True,Rail,Dec,2399775,764,material wastage due to over-feeding,674432,2018
+8205,False,Airways,Aug,3877995,3525,excessive machine stoppage,89171,2003
+2454,True,Rail,Nov,1480823,9861,excessive machine stoppage,228399,2008
+1067,False,Road,Aug,763561,1134,Huge backlog of orders,145743,2018
+4414,True,Airways,Dec,9249275,1025,Poor Planning,549403,2012
+1282,False,Water,Aug,7658169,8297,Huge backlog of orders,309638,2014
+2637,False,Water,Mar,9095420,8292,excessive machine stoppage,739364,2016
+6082,True,Water,Apr,2019149,3656,Factory shutdown,210791,2002
+4276,True,Road,Jan,190844,4381,Factory shutdown,553550,2005
+5820,True,Road,Jul,7371200,9103,Strike of workers,185053,2002
+4172,False,Water,Oct,9661386,4713,Financial problems of company leading to interrupted supplies,948580,2008
+7781,False,Water,Jan,9558674,2017,Huge backlog of orders,167021,2003
+3046,False,Rail,Aug,1584192,7054,Transport Delays,869468,2018
+4278,False,Water,Mar,654305,1950,faulty plant layout,566600,2006
+7500,True,Road,Aug,5589986,4623,excessive machine stoppage,470755,2003
+9912,False,Road,Oct,2014188,7425,Transport Delays,41156,2016
+4169,True,Airways,Jan,783060,8865,Poor inventory control,128776,2014
+3866,False,Water,Apr,5462020,4084,Factory shutdown,573568,2005
+2267,False,Water,Feb,7495418,5671,Huge backlog of orders,721660,2012
+2348,True,Road,Jul,107338,5840,electricty stoppage,18210,2018
+937,False,Rail,Jul,9225729,2781,Demand Variation,994881,2010
+1265,True,Rail,Jun,9990151,8125,Poor Lead time calculation,730948,2012
+5127,False,Rail,Jul,6306338,3167,electricty stoppage,595778,2005
+5025,False,Water,Jun,3922741,4243,faulty plant layout,280823,2002
+6337,True,Rail,Jun,4775754,7975,excessive machine stoppage,969920,2013
+4950,True,Water,Sep,1226442,2281,Poor Planning,128839,2013
+5735,False,Airways,Dec,7224512,4871,Raw material low,897183,2002
+4805,True,Airways,Jun,2071240,7044,Transport Delays,729323,2006
+4309,False,Road,Jun,2178236,8925,Huge backlog of orders,960307,2007
+9964,False,Road,Mar,1234076,2348,electricty stoppage,566777,2014
+903,True,Water,Oct,7338050,8455,Financial problems of company leading to interrupted supplies,804415,2006
+8845,False,Rail,May,6153819,9416,Transport Delays,265828,2015
+5520,True,Water,May,9909341,2306,excessive machine stoppage,266089,2014
+8816,True,Water,Mar,7767677,4162,Poor inventory control,71982,2013
+2199,True,Rail,Jul,8727057,8963,Financial problems of company leading to interrupted supplies,147171,2008
+1218,False,Water,Mar,3280838,8706,Transport Delays,853962,2014
+6621,False,Road,May,7576618,2882,Supply Shortages and logistical uncertainties,245492,2003
+2764,True,Road,May,6901120,2321,electricty stoppage,595739,2017
+8722,True,Rail,Feb,3781015,3816,Poor Lead time calculation,615860,2003
+2014,False,Water,Mar,4538160,9083,Transport Delays,309260,2013
+5986,False,Rail,Oct,1950646,8714,Financial problems of company leading to interrupted supplies,12104,2009
+4318,True,Airways,Apr,6138676,4671,Poor Lead time calculation,989270,2001
+9124,False,Rail,Aug,3818176,5189,Supply Shortages and logistical uncertainties,833512,2010
+5520,False,Water,Feb,699238,9825,Strike of workers,513902,2007
+7703,False,Rail,Oct,5153066,3707,Transport Delays,118656,2007
+6637,False,Water,Mar,9548480,2079,Raw material low,437381,2016
+6798,True,Airways,Aug,3813342,3510,Huge backlog of orders,407124,2005
+7560,True,Water,Mar,7709506,2079,Supply Shortages and logistical uncertainties,270053,2018
+7632,False,Rail,Mar,1273812,1127,Financial problems of company leading to interrupted supplies,886035,2011
+4487,False,Road,Oct,2440140,2477,Transport Delays,693406,2014
+3048,False,Airways,Jul,495454,8618,Financial problems of company leading to interrupted supplies,655738,2010
+4844,False,Airways,Dec,9440820,788,material wastage due to over-feeding,782225,2007
+6366,False,Road,Mar,7739714,3018,faulty plant layout,361555,2002
+9964,False,Rail,Feb,1779901,3551,faulty plant layout,720135,2008
+6087,False,Road,Nov,4598407,8352,faulty plant layout,202156,2009
+9052,True,Water,Oct,32907,8825,Raw material low,924251,2003
+7352,True,Water,Feb,7425169,9849,Strike of workers,805381,2007
+1641,False,Road,Jan,396416,3336,material wastage due to over-feeding,28668,2005
+2089,False,Airways,May,9466041,996,Transport Delays,100340,2017
+4246,False,Airways,Dec,2175429,4101,Demand Variation,870024,2011
+8532,True,Airways,Aug,325709,9614,Strike of workers,643875,2010
+1884,False,Water,Apr,3658700,6742,Poor Planning,592471,2018
+9832,True,Airways,Dec,9453408,5565,faulty plant layout,396653,2002
+4078,False,Road,Aug,6217187,7265,Huge backlog of orders,938176,2002
+4346,False,Water,Jan,2167264,3637,Financial problems of company leading to interrupted supplies,967994,2006
+5807,False,Airways,Feb,3277250,4843,material wastage due to over-feeding,997525,2017
+1177,True,Road,Oct,320778,9396,Strike of workers,289713,2006
+9390,False,Road,Feb,6234447,1310,material wastage due to over-feeding,171915,2005
+5120,False,Road,Dec,8454562,1487,faulty plant layout,764943,2002
+3720,True,Road,Dec,5658940,6045,Huge backlog of orders,927431,2003
+5695,False,Water,Oct,6641533,9835,electricty stoppage,237261,2014
+8171,False,Rail,Jul,4307378,1369,Factory shutdown,865026,2010
+6788,False,Water,Aug,5817786,2656,Poor inventory control,41977,2003
+2504,False,Water,Aug,3270562,1364,electricty stoppage,928778,2003
+3916,False,Rail,Dec,9825684,3035,Strike of workers,182370,2010
+5109,True,Rail,Mar,2093219,6115,Poor inventory control,777703,2011
+6002,True,Airways,May,971235,2259,Transport Delays,162331,2012
+1388,False,Road,Sep,6084814,1273,Huge backlog of orders,920871,2003
+7433,False,Airways,Jun,6963015,9917,Demand Variation,381728,2002
+5163,False,Water,Feb,3939914,6115,Huge backlog of orders,744214,2011
+7253,False,Water,Jul,9999665,3483,material wastage due to over-feeding,106983,2016
+2561,True,Rail,Oct,5417385,5359,Poor Lead time calculation,869621,2004
+5348,False,Airways,May,8211326,1583,Poor Lead time calculation,5850,2013
+5098,True,Airways,Aug,2903135,5171,Demand Variation,4749,2017
+7695,False,Water,Apr,2477965,2324,electricty stoppage,260381,2005
+7638,False,Airways,Sep,4621052,9748,Transport Delays,746690,2006
+6549,False,Road,Oct,7169920,8524,faulty plant layout,194430,2009
+2161,True,Road,Jan,7488194,9676,Strike of workers,330453,2017
+9134,True,Rail,Jan,9071138,5611,faulty plant layout,732295,2006
+1206,False,Water,Jun,5658940,7827,Huge backlog of orders,543918,2015
+7530,False,Water,May,3006529,6946,Huge backlog of orders,634977,2009
+788,True,Rail,Apr,5238264,4382,Poor Lead time calculation,228826,2008
+9027,False,Road,Mar,4039985,2184,Supply Shortages and logistical uncertainties,844849,2016
+5375,False,Water,Jan,7012278,6019,Supply Shortages and logistical uncertainties,209416,2017
+2553,True,Water,May,25448,8352,Transport Delays,984539,2016
+8908,True,Water,Apr,7908389,8927,Financial problems of company leading to interrupted supplies,565010,2003
+7660,False,Road,Nov,489401,8572,Strike of workers,649624,2013
+8734,False,Road,Mar,8727057,6488,Poor Planning,818490,2015
+3087,False,Airways,Nov,1429783,3161,Factory shutdown,112989,2017
+1096,True,Water,Mar,6488470,6763,Huge backlog of orders,651934,2009
+855,True,Road,May,6041233,4537,Poor inventory control,846020,2010
+7492,False,Road,Oct,5000110,5500,electricty stoppage,406784,2004
+8006,True,Rail,Apr,4048963,6692,Financial problems of company leading to interrupted supplies,651963,2013
+2706,False,Airways,Sep,9558421,7924,Supply Shortages and logistical uncertainties,558611,2002
+1744,True,Rail,Oct,1946122,6379,Poor Lead time calculation,875476,2010
+5452,True,Water,Jun,2997856,8896,Strike of workers,628738,2013
+1105,False,Airways,Aug,3561251,2306,Supply Shortages and logistical uncertainties,358742,2017
+8524,True,Airways,Apr,1962775,3236,Strike of workers,90038,2016
+6570,True,Road,Jun,6350030,4561,electricty stoppage,839502,2002
+2498,True,Rail,Dec,5957358,8122,Financial problems of company leading to interrupted supplies,812489,2009
+9676,True,Road,Jun,5728284,7699,Poor Planning,31225,2008
+9521,False,Water,Apr,7815041,3074,electricty stoppage,453900,2009
+4325,False,Road,Jun,756931,7179,electricty stoppage,5054,2015
+2959,False,Water,Jan,6403079,9670,Raw material low,85497,2010
+5323,True,Road,Feb,6690351,8797,Raw material low,573366,2002
+8361,True,Airways,Feb,8465680,3282,Raw material low,944067,2001
+8416,True,Water,Jan,1783474,6141,excessive machine stoppage,826977,2014
+8290,False,Road,Oct,1440300,6571,Transport Delays,856413,2010
+9948,False,Rail,Jun,6088156,9781,Financial problems of company leading to interrupted supplies,942172,2017
+9096,True,Water,Nov,6497507,8048,Demand Variation,104476,2018
+6843,True,Rail,Feb,3206779,2416,Raw material low,820918,2013
+7100,True,Airways,Jan,2633802,6397,faulty plant layout,764658,2010
+7954,True,Airways,Dec,4446841,9193,Strike of workers,198795,2002
+937,True,Rail,Aug,5914177,7893,Poor Planning,492552,2001
+7837,False,Airways,Jun,3501373,8854,Demand Variation,901890,2015
+3437,False,Road,Jul,4684553,6769,Factory shutdown,163436,2015
+6363,True,Rail,Jul,710138,8882,Supply Shortages and logistical uncertainties,247113,2015
+7752,False,Road,Feb,1021727,9708,Raw material low,846020,2010
+8112,True,Airways,May,9965153,9149,Factory shutdown,699245,2001
+8882,False,Rail,Mar,3776079,7578,Financial problems of company leading to interrupted supplies,564799,2004
+9435,False,Rail,May,2757703,7336,Transport Delays,649347,2003
+2956,False,Airways,Apr,6349022,7706,material wastage due to over-feeding,199252,2010
+5624,True,Airways,Mar,6435059,9835,Poor inventory control,796504,2002
+3401,False,Airways,Sep,5148168,9052,Strike of workers,300986,2011
+5235,True,Road,Feb,3258591,3214,Poor inventory control,575719,2018
+7571,False,Rail,Jul,548521,2349,Poor inventory control,782275,2003
+6664,True,Road,Sep,3889121,7181,faulty plant layout,361626,2013
+2499,False,Rail,Aug,9381736,1870,Poor inventory control,180793,2012
+9324,False,Rail,Oct,9818394,4004,Huge backlog of orders,753184,2018
+2193,False,Road,Sep,4357753,8020,excessive machine stoppage,881326,2002
+5813,False,Road,Oct,8847583,5049,Poor inventory control,291154,2012
+9346,False,Road,Sep,4799462,4705,excessive machine stoppage,998140,2012
+4889,False,Road,Aug,429177,7078,Financial problems of company leading to interrupted supplies,35947,2003
+916,True,Airways,Dec,3852479,7716,Huge backlog of orders,670267,2011
+2623,False,Airways,Feb,2467826,6443,Poor Lead time calculation,371980,2018
+7723,False,Water,Feb,4353534,2770,Poor Lead time calculation,927879,2005
+3133,False,Road,Dec,7416739,4575,Poor Planning,280700,2008
+7679,False,Rail,Dec,1702521,4514,material wastage due to over-feeding,959291,2001
+7380,True,Road,Dec,7341371,2438,Financial problems of company leading to interrupted supplies,387856,2011
+801,False,Rail,Feb,1226467,1355,Strike of workers,610558,2011
+3190,True,Airways,Aug,6343302,5331,material wastage due to over-feeding,970348,2001
+8482,True,Rail,Aug,756931,2131,Factory shutdown,939058,2002
+1315,False,Rail,Jun,4608353,1539,Poor inventory control,786908,2017
+6456,True,Road,Aug,6619197,8120,Supply Shortages and logistical uncertainties,626639,2018
+5337,False,Airways,Dec,5766837,6177,faulty plant layout,612636,2013
+5002,True,Road,Mar,4859846,7334,Poor inventory control,284203,2013
+1148,False,Road,Feb,4278328,6903,Poor Planning,13363,2014
+8621,True,Rail,Aug,5956861,7277,Strike of workers,37856,2012
+6484,False,Airways,Jun,1544719,958,Factory shutdown,875211,2010
+825,True,Water,Jun,9964115,7895,Strike of workers,934878,2009
+9740,True,Rail,May,836399,6209,faulty plant layout,343650,2005
+4185,False,Road,Dec,219784,4734,excessive machine stoppage,535773,2003
+8579,True,Water,Apr,7349679,3274,Huge backlog of orders,720417,2015
+2354,True,Rail,Jun,7344705,3858,electricty stoppage,404290,2008
+5918,False,Rail,Aug,4278375,6056,Huge backlog of orders,406815,2017
+6570,True,Road,Nov,4275314,3356,Financial problems of company leading to interrupted supplies,652464,2014
+7956,False,Road,Mar,2620896,7319,electricty stoppage,851000,2003
+8097,False,Road,Jun,8993151,2256,excessive machine stoppage,93662,2017
+8579,True,Water,Sep,3863532,2957,Factory shutdown,642358,2009
+1074,False,Airways,Jan,8705863,3704,Poor Planning,73240,2005
+5761,True,Road,Jan,9241348,1300,Raw material low,821275,2002
+3707,False,Road,Nov,8608155,2896,Supply Shortages and logistical uncertainties,880059,2006
+8316,False,Rail,Nov,8325673,3664,Poor Lead time calculation,567002,2012
+8984,True,Road,Feb,9473480,6502,excessive machine stoppage,177654,2016
+6387,True,Rail,Feb,1192123,8427,excessive machine stoppage,403684,2009
+2423,False,Water,Apr,9293071,8583,Financial problems of company leading to interrupted supplies,238646,2018
+3556,True,Airways,Apr,5680064,1518,Poor Planning,534663,2009
+947,False,Road,Dec,1100147,1300,Poor Lead time calculation,616627,2018
+7088,True,Rail,Jan,8722427,8787,electricty stoppage,815787,2018
+7852,False,Airways,Feb,2341417,9648,Factory shutdown,207441,2016
+7257,True,Road,Jul,5440731,2804,Poor Planning,855785,2006
+8034,True,Airways,Feb,1455274,1926,material wastage due to over-feeding,361558,2013
+1873,False,Airways,Dec,981116,4795,Transport Delays,680144,2017
+6895,True,Rail,Jul,499339,6181,Factory shutdown,177130,2010
+7673,True,Airways,Jan,1839735,707,Poor Planning,86381,2006
+1717,True,Water,Oct,5783733,8711,Factory shutdown,360823,2005
+5939,True,Rail,Oct,76766,4900,Financial problems of company leading to interrupted supplies,980827,2011
+2360,True,Rail,Jan,7977365,5288,Transport Delays,241109,2010
+5339,True,Rail,Jul,8226957,1075,Supply Shortages and logistical uncertainties,946309,2010
+3787,False,Rail,May,4028351,5419,Factory shutdown,27007,2003
+8071,True,Airways,Apr,3110252,4690,Demand Variation,369576,2003
+1168,False,Water,Oct,8575341,722,Poor Planning,500002,2014
+8302,False,Airways,Oct,8390020,2720,Transport Delays,29170,2015
+7743,True,Rail,Feb,8524732,7691,Poor Planning,486411,2004
+5548,False,Rail,Sep,5389363,1989,Financial problems of company leading to interrupted supplies,45957,2007
+7195,True,Rail,Sep,7040862,9574,Poor inventory control,283003,2013
+2095,True,Road,Jan,1384276,4429,Demand Variation,811521,2008
+3625,True,Rail,Feb,4182338,7734,Raw material low,142173,2009
+7327,True,Water,Mar,3297125,2009,Supply Shortages and logistical uncertainties,859030,2001
+7049,True,Airways,Dec,1696588,2980,Poor Planning,803379,2010
+9279,True,Water,Aug,5890334,1022,Poor inventory control,323070,2011
+8135,True,Water,Apr,9955681,3096,Poor Lead time calculation,726105,2016
+9454,True,Rail,Jun,7983972,8859,Raw material low,355170,2008
+5599,True,Rail,Sep,1276627,4921,Raw material low,128447,2013
+7779,True,Road,May,1205379,6035,Poor Lead time calculation,270449,2006
+6619,True,Rail,May,4743768,2946,electricty stoppage,743260,2007
+9356,False,Airways,Apr,3792314,8825,Poor inventory control,52530,2015
+9774,True,Road,May,2293780,805,Huge backlog of orders,213687,2015
+903,True,Rail,Jun,7121007,3016,excessive machine stoppage,415558,2010
+5683,True,Road,Sep,7815041,1457,Financial problems of company leading to interrupted supplies,78876,2008
+8738,True,Water,Jun,7525315,8366,Strike of workers,194476,2008
+896,True,Water,Jan,2353319,2317,Factory shutdown,415196,2014
+8607,True,Water,Jan,5799561,2775,Transport Delays,184068,2014
+8643,False,Rail,May,4245753,3193,Poor Lead time calculation,270867,2010
+2897,True,Airways,Jul,6506487,3488,material wastage due to over-feeding,844166,2011
+1284,True,Rail,Dec,9773334,7682,Supply Shortages and logistical uncertainties,223855,2009
+5175,False,Road,Nov,3737231,2003,Transport Delays,918334,2005
+6117,True,Water,Nov,9510671,7873,material wastage due to over-feeding,953390,2016
+1358,False,Rail,Apr,2981004,4609,Factory shutdown,809242,2010
+5882,True,Airways,Jan,7156491,2003,Huge backlog of orders,651559,2011
+5675,False,Water,Oct,2133129,9355,material wastage due to over-feeding,655965,2009
+4285,False,Rail,Jul,6777205,4988,faulty plant layout,60598,2013
+9556,True,Airways,Jun,6510141,3753,Poor Planning,218832,2018
+854,False,Rail,Feb,378525,8366,Factory shutdown,791498,2001
+3842,False,Airways,Nov,5689161,8136,Poor inventory control,299959,2002
+1977,False,Airways,Dec,9884483,3448,excessive machine stoppage,61745,2009
+1283,False,Airways,Oct,3213733,6115,Factory shutdown,115521,2004
+5668,False,Rail,Jun,7622841,5685,Raw material low,353042,2015
+3587,False,Airways,May,2755415,5165,Raw material low,641682,2009
+1810,False,Rail,Sep,430375,2330,Supply Shortages and logistical uncertainties,544352,2004
+3001,True,Rail,Jun,9432446,7676,Financial problems of company leading to interrupted supplies,373775,2006
+8350,False,Road,Apr,8274754,8468,Factory shutdown,45753,2005
+9041,False,Road,Aug,4440136,5158,Strike of workers,624712,2016
+8212,True,Rail,Mar,9776937,5993,Strike of workers,823223,2010
+6037,False,Road,Dec,1705525,7316,Poor inventory control,65580,2002
+9551,True,Rail,Nov,3607359,1119,Transport Delays,22141,2007
+7745,True,Airways,Jul,4202730,3299,Demand Variation,540613,2001
+6566,False,Rail,Apr,3135579,956,Factory shutdown,37158,2009
+9059,False,Rail,Feb,1548014,3428,Huge backlog of orders,471847,2016
+6011,False,Airways,Nov,3842916,3674,Strike of workers,878771,2006
+9325,False,Airways,Dec,7629165,5945,faulty plant layout,877750,2011
+1623,True,Road,Jan,4621994,3810,Demand Variation,706536,2015
+1623,False,Rail,Mar,810259,2574,excessive machine stoppage,310466,2001
+6186,False,Road,Jun,7204695,6237,material wastage due to over-feeding,101217,2003
+9096,False,Water,Jun,2160619,9585,Financial problems of company leading to interrupted supplies,250643,2007
+8491,False,Road,Oct,9383216,903,Financial problems of company leading to interrupted supplies,866546,2013
+4111,False,Rail,Jun,2171900,6203,electricty stoppage,457529,2007
+8872,False,Road,Nov,1572178,2274,Demand Variation,940634,2004
+3079,True,Airways,May,7241715,5389,electricty stoppage,524437,2002
+2388,False,Airways,Jun,5154011,7364,faulty plant layout,103308,2018
+8340,False,Road,Dec,5030185,2023,material wastage due to over-feeding,752744,2008
+2677,True,Road,May,3785880,6557,Supply Shortages and logistical uncertainties,299401,2013
+2862,True,Water,Jun,7944198,8390,Raw material low,800075,2018
+8976,True,Water,Dec,7697943,4792,Huge backlog of orders,514568,2003
+2727,False,Rail,Jul,3190586,6264,excessive machine stoppage,601604,2005
+5814,True,Airways,Jan,5890334,7246,Strike of workers,276871,2006
+878,True,Airways,Nov,2071240,2192,Strike of workers,780270,2008
+978,True,Rail,Jul,2775436,1902,Factory shutdown,866775,2010
+4758,True,Rail,Apr,1592420,6061,Raw material low,459130,2013
+8054,False,Rail,Dec,3460216,4595,Supply Shortages and logistical uncertainties,684704,2010
+5501,True,Road,May,5228956,4816,Poor inventory control,373775,2006
+9808,True,Airways,May,4237252,3549,excessive machine stoppage,391512,2001
+9117,False,Road,Sep,200279,9203,Strike of workers,448230,2012
+3338,False,Airways,Sep,8739307,5613,Supply Shortages and logistical uncertainties,245099,2007
+8933,False,Airways,Jan,7125671,4946,Factory shutdown,443222,2013
+8166,False,Airways,Nov,4303033,7153,electricty stoppage,747492,2005
+9411,True,Airways,Dec,7144295,9794,Poor Lead time calculation,215145,2018
+2750,False,Water,Jan,6153819,6648,Financial problems of company leading to interrupted supplies,851130,2011
+2061,False,Water,Aug,9696038,6666,Supply Shortages and logistical uncertainties,841048,2001
+6447,True,Water,Jan,6116054,6110,Transport Delays,178843,2015
+795,False,Road,Dec,6821838,3560,Transport Delays,101156,2002
+4224,False,Rail,Jul,1644200,9443,electricty stoppage,416326,2014
+2320,True,Road,Apr,8278230,1885,electricty stoppage,494004,2015
+7533,False,Road,Mar,1735773,7414,Supply Shortages and logistical uncertainties,614307,2009
+7010,True,Road,Jun,4914232,8732,Raw material low,642836,2018
+4085,False,Airways,Dec,7211551,6168,Supply Shortages and logistical uncertainties,343594,2011
+1571,True,Water,Dec,8970947,8711,Raw material low,715427,2013
+992,False,Water,Apr,2509349,3273,Raw material low,605679,2008
+1020,False,Airways,Jul,3840054,4805,Factory shutdown,833835,2004
+2279,False,Water,Jun,7526745,1033,Financial problems of company leading to interrupted supplies,481302,2011
+9485,True,Rail,Jan,2492262,2056,Transport Delays,475064,2016
+781,False,Airways,Nov,3261669,2742,Factory shutdown,159646,2010
+6235,False,Water,Apr,7265927,3449,Poor inventory control,639355,2011
+3557,True,Water,May,2553058,3268,Poor Planning,230901,2013
+9026,True,Rail,Dec,5483670,1587,material wastage due to over-feeding,603975,2018
+4112,False,Rail,Dec,6058129,4435,Poor Lead time calculation,385273,2015
+3029,True,Road,Dec,8789322,2685,Financial problems of company leading to interrupted supplies,199306,2012
+2582,False,Airways,Mar,2939875,9670,excessive machine stoppage,781661,2003
+1075,True,Road,May,348712,4615,Poor Planning,680330,2016
+1237,True,Road,Dec,4245304,2957,Raw material low,236942,2013
+4324,False,Rail,Mar,1233206,7841,Supply Shortages and logistical uncertainties,929231,2013
+7049,False,Rail,Oct,6823876,8780,Transport Delays,301151,2003
+4843,True,Water,Nov,9855305,7964,Strike of workers,188562,2012
+1123,False,Airways,Jan,4901647,9469,Demand Variation,321799,2008
+8509,True,Airways,Sep,5949781,2574,excessive machine stoppage,251241,2016
+9635,False,Water,Nov,7158734,2970,Poor inventory control,502810,2001
+3461,True,Airways,Nov,7278551,3642,Poor Lead time calculation,59824,2014
+2092,False,Rail,Jun,9696038,5533,Demand Variation,948757,2010
+1924,True,Airways,Aug,1916723,2503,Demand Variation,362501,2016
+8486,True,Airways,Apr,3283465,5384,Supply Shortages and logistical uncertainties,364043,2016
+1145,False,Water,Sep,2143935,7586,Huge backlog of orders,41423,2015
+2896,True,Water,Nov,4777288,3973,electricty stoppage,668527,2011
+3248,True,Road,Jan,198231,9547,Poor Planning,944353,2001
+977,True,Airways,Jun,8220706,9030,Transport Delays,15813,2009
+9686,False,Rail,May,1375251,8447,electricty stoppage,942172,2016
+996,False,Airways,Oct,9829189,3132,Demand Variation,276871,2002
+4900,True,Water,Nov,577620,3248,faulty plant layout,427810,2001
+2325,True,Water,Jun,7599254,9116,faulty plant layout,134262,2009
+8435,False,Rail,Aug,9965642,5600,Huge backlog of orders,536726,2009
+7468,False,Road,Dec,6519797,7702,Factory shutdown,797818,2001
+1420,True,Road,Oct,6609412,1246,Raw material low,981029,2017
+1477,True,Rail,Jan,267023,1998,electricty stoppage,238157,2005
+1938,False,Road,Sep,4628479,8880,Poor inventory control,182284,2003
+7038,True,Water,Apr,5160675,7617,Demand Variation,395618,2018
+6734,False,Rail,Jun,9453511,6467,Huge backlog of orders,925636,2007
+996,True,Rail,Jul,6234447,5865,faulty plant layout,125727,2005
+2328,True,Rail,Jul,7888694,5877,Demand Variation,895461,2014
+1263,False,Water,Aug,2743827,6285,Factory shutdown,672216,2015
+3699,True,Rail,May,94280,807,Demand Variation,776077,2001
+7668,False,Water,Jan,7564755,4625,excessive machine stoppage,752782,2001
+2451,False,Rail,Mar,645150,8887,Poor inventory control,650732,2003
+4296,False,Airways,Feb,2018219,9628,Factory shutdown,438287,2018
+8846,False,Airways,May,1312027,9237,Poor Lead time calculation,117703,2003
+7042,True,Water,Jan,2170453,4883,Poor Lead time calculation,28664,2009
+5959,False,Water,Aug,3660029,3736,Strike of workers,692854,2013
+6053,True,Airways,Oct,796440,8270,Poor inventory control,674885,2007
+4662,False,Road,Oct,6885669,4770,Financial problems of company leading to interrupted supplies,615070,2005
+7312,False,Road,Mar,3563658,7031,Poor inventory control,530503,2002
+1691,False,Road,Sep,3373781,6576,Factory shutdown,223927,2007
+7146,False,Airways,May,1784017,9534,Raw material low,49763,2004
+3323,True,Airways,Jan,883760,9109,Demand Variation,703601,2015
+9199,True,Water,Feb,5326913,8428,Poor inventory control,60778,2017
+5498,False,Road,Aug,8152591,9964,Raw material low,776304,2004
+7859,True,Road,Sep,6166697,8283,faulty plant layout,251386,2015
