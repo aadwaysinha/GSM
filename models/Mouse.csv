@@ -1,0 +1,501 @@
+daystilldelivery,inventorytofactorydistance,isholiday,manufacturingtime,modeofdelivery,month,profittocompany,quantity,rootcause,year
+2,2293,False,1,airways,May,617,109,excessive machine stoppage,2004
+3,197,True,6,airways,July,1639,25,Poor Planning,2007
+4,1112,False,1,rail,September,627,84,Financial problems of company leading to interrupted supplies,2001
+11,140,True,1,water,October,1193,32,Factory shutdown,2002
+6,239,True,1,rail,October,3333,89,Poor Planning,2008
+2,218,True,1,airways,September,861,4,faulty plant layout,2010
+0,4890,True,4,road,September,721,35,Raw material low,2008
+6,190,True,0,water,November,1332,107,electricty stoppage,2004
+0,930,False,10,road,September,613,195,Factory shutdown,2008
+5,2447,True,1,road,January,5794,47,Huge backlog of orders,2008
+0,370,False,5,airways,July,1081,178,Poor inventory control,2006
+0,691,False,3,road,August,345,370,Huge backlog of orders,2014
+1,2728,False,4,road,August,8294,312,Financial problems of company leading to interrupted supplies,2003
+9,1975,True,10,rail,May,980,199,Poor inventory control,2011
+13,773,False,4,water,September,618,2,Demand Variation,2004
+2,4354,True,2,rail,August,3496,65,electricty stoppage,2012
+3,8532,True,1,road,February,216,286,Poor Planning,2010
+1,561,False,21,water,February,1431,122,Raw material low,2007
+2,524,False,0,airways,May,1069,164,Transport Delays,2018
+19,3250,False,1,water,January,861,37,faulty plant layout,2016
+5,238,True,4,road,January,346,26,Poor Lead time calculation,2014
+0,1073,True,1,airways,December,1372,864,Financial problems of company leading to interrupted supplies,2014
+5,7181,False,1,rail,August,1577,871,Huge backlog of orders,2005
+6,4913,False,9,rail,March,1223,123,Factory shutdown,2008
+3,294,False,1,rail,April,980,68,Raw material low,2010
+5,831,True,21,road,June,303,75,faulty plant layout,2009
+4,3200,False,0,road,March,786,479,Transport Delays,2012
+4,831,True,12,airways,October,541,118,Transport Delays,2001
+2,2416,False,22,rail,August,181,122,Poor Planning,2008
+21,2180,False,12,road,January,7004,83,Supply Shortages and logistical uncertainties,2009
+3,698,False,11,airways,March,1634,933,Poor Lead time calculation,2006
+3,1109,True,24,water,January,1683,90,Poor inventory control,2010
+4,862,False,3,water,August,1264,120,faulty plant layout,2017
+9,253,False,9,rail,March,3037,112,excessive machine stoppage,2008
+4,35,True,1,airways,March,2555,8,excessive machine stoppage,2010
+1,569,True,0,airways,December,1836,119,electricty stoppage,2010
+10,598,True,5,road,August,1137,23,excessive machine stoppage,2007
+3,3159,False,8,rail,November,1351,117,Financial problems of company leading to interrupted supplies,2013
+4,1953,False,1,water,March,454,42,Poor inventory control,2012
+3,760,False,1,water,April,569,112,electricty stoppage,2016
+1,1097,True,7,airways,June,1787,78,Financial problems of company leading to interrupted supplies,2001
+8,636,True,5,water,June,1304,83,electricty stoppage,2002
+4,1094,False,3,airways,June,791,103,Transport Delays,2004
+12,5772,True,2,airways,November,1974,83,excessive machine stoppage,2013
+7,4665,True,5,road,July,333,61,Poor Planning,2015
+3,95,False,5,road,February,1006,15,Poor inventory control,2013
+5,823,True,2,water,November,5077,30,excessive machine stoppage,2006
+4,1453,False,47,airways,January,590,20,Raw material low,2015
+3,551,False,18,rail,December,2059,209,material wastage due to over-feeding,2007
+7,2561,False,3,road,April,755,75,excessive machine stoppage,2016
+4,4795,False,3,water,April,1980,471,Demand Variation,2001
+3,4797,True,15,water,August,554,10,Supply Shortages and logistical uncertainties,2005
+9,115,True,5,rail,February,4472,313,Demand Variation,2009
+0,1976,False,32,airways,June,974,57,Poor inventory control,2001
+3,923,True,4,road,December,365,9,Demand Variation,2015
+10,430,True,5,water,January,2864,31,Poor inventory control,2006
+1,1595,True,9,airways,May,538,60,Strike of workers,2002
+7,349,True,4,airways,February,1453,69,Financial problems of company leading to interrupted supplies,2009
+6,1748,False,4,airways,April,1415,35,material wastage due to over-feeding,2010
+2,717,True,19,airways,May,511,63,Poor Lead time calculation,2003
+1,708,True,12,water,August,645,33,Supply Shortages and logistical uncertainties,2008
+1,1149,True,3,water,June,2787,39,Financial problems of company leading to interrupted supplies,2010
+1,918,True,12,airways,October,246,292,Huge backlog of orders,2005
+6,1867,False,4,water,December,714,83,faulty plant layout,2009
+27,1969,False,6,airways,August,515,8,Raw material low,2016
+3,4598,True,9,water,September,338,284,excessive machine stoppage,2014
+3,632,False,9,water,December,1487,93,faulty plant layout,2005
+15,4605,False,3,road,April,879,43,Raw material low,2018
+7,730,False,2,water,January,8483,34,Financial problems of company leading to interrupted supplies,2008
+7,1676,False,5,water,November,2530,488,material wastage due to over-feeding,2003
+3,2072,False,3,airways,September,4751,54,electricty stoppage,2016
+5,148,True,24,rail,February,425,42,Poor Lead time calculation,2002
+2,903,True,4,water,November,734,56,Poor Planning,2016
+4,1081,True,3,road,May,1140,145,Demand Variation,2006
+13,1090,True,11,water,March,236,25,Demand Variation,2003
+7,4165,True,6,road,June,810,119,material wastage due to over-feeding,2007
+15,2737,True,23,airways,July,1052,224,faulty plant layout,2014
+5,1605,False,22,water,January,1351,95,Factory shutdown,2017
+12,2119,True,8,airways,August,499,97,Demand Variation,2002
+3,1535,True,0,rail,May,1720,117,Financial problems of company leading to interrupted supplies,2010
+1,7228,False,3,rail,June,1519,40,Strike of workers,2016
+5,495,True,13,airways,May,900,595,Poor Planning,2004
+28,4443,True,11,water,November,598,85,Poor Planning,2009
+9,2185,False,0,airways,August,769,48,Transport Delays,2013
+35,447,True,5,road,June,285,107,Financial problems of company leading to interrupted supplies,2004
+5,737,False,5,airways,November,1475,6,material wastage due to over-feeding,2006
+14,1079,True,4,airways,November,1089,26,electricty stoppage,2012
+1,926,True,0,road,February,889,57,Poor Planning,2015
+14,211,True,6,road,September,2502,275,Strike of workers,2010
+9,6591,False,3,rail,November,2792,86,faulty plant layout,2017
+8,165,True,7,airways,November,3117,121,Poor Lead time calculation,2006
+9,110,True,2,airways,May,3016,131,Raw material low,2016
+1,870,True,12,rail,August,2540,122,Strike of workers,2018
+4,223,True,0,road,April,1299,206,Supply Shortages and logistical uncertainties,2005
+3,672,False,0,water,August,463,63,Poor Lead time calculation,2012
+11,17,True,10,rail,September,963,224,Poor inventory control,2005
+4,857,True,15,rail,June,1086,82,electricty stoppage,2017
+4,348,True,4,airways,June,1067,66,Transport Delays,2002
+3,87,True,7,water,November,852,138,Supply Shortages and logistical uncertainties,2008
+1,316,False,5,water,March,538,65,Poor inventory control,2004
+2,911,True,0,water,April,1449,51,Demand Variation,2009
+3,480,True,29,airways,February,2680,323,Huge backlog of orders,2005
+22,3476,False,20,water,September,523,179,Poor inventory control,2005
+11,2527,True,31,rail,November,738,441,Poor inventory control,2010
+5,547,True,17,water,July,4750,47,Financial problems of company leading to interrupted supplies,2007
+16,219,False,4,road,May,228,106,Strike of workers,2011
+12,807,False,0,water,November,2552,15,electricty stoppage,2012
+1,641,False,3,airways,September,538,21,Poor inventory control,2014
+3,9420,True,7,rail,July,452,38,Huge backlog of orders,2013
+3,589,True,2,airways,September,849,365,material wastage due to over-feeding,2008
+1,7105,True,7,road,February,966,110,Poor inventory control,2003
+0,479,True,7,rail,August,761,334,Poor Planning,2006
+2,938,True,47,road,March,9984,252,Huge backlog of orders,2015
+3,410,True,2,rail,August,666,18,Demand Variation,2002
+1,1222,False,1,airways,February,3582,110,Huge backlog of orders,2011
+2,3352,True,2,road,February,1094,656,faulty plant layout,2017
+1,890,False,2,rail,April,9964,767,Strike of workers,2005
+6,8197,False,7,water,October,489,69,Poor Lead time calculation,2012
+2,392,False,7,rail,September,1033,92,Poor Planning,2008
+4,1470,True,1,airways,June,1912,195,Supply Shortages and logistical uncertainties,2001
+25,1453,True,5,airways,March,2560,80,Factory shutdown,2006
+5,321,True,1,airways,May,1867,292,Huge backlog of orders,2018
+8,140,False,1,water,December,511,97,electricty stoppage,2006
+0,1635,True,5,rail,February,1098,108,Factory shutdown,2018
+5,267,True,4,airways,January,1396,284,Strike of workers,2015
+9,289,False,7,water,June,204,108,Transport Delays,2003
+0,264,True,2,airways,January,1028,114,faulty plant layout,2018
+0,1081,False,11,water,August,242,97,Poor inventory control,2009
+7,322,True,12,airways,May,1363,115,faulty plant layout,2006
+0,939,True,21,airways,December,848,52,Poor Lead time calculation,2017
+4,309,False,21,rail,May,1064,52,Poor Planning,2007
+9,100,False,4,water,September,1406,2,Transport Delays,2012
+10,1528,False,1,airways,January,604,30,Transport Delays,2012
+24,2545,False,1,water,August,178,317,electricty stoppage,2002
+2,7039,True,0,airways,April,486,22,Transport Delays,2004
+6,639,False,4,airways,January,7892,57,electricty stoppage,2004
+2,2267,True,5,airways,June,1495,293,material wastage due to over-feeding,2010
+2,1354,True,3,airways,February,1572,68,Raw material low,2009
+6,2677,False,5,road,September,894,108,Poor Lead time calculation,2007
+2,1811,True,1,rail,January,326,26,Supply Shortages and logistical uncertainties,2005
+8,165,False,2,airways,October,3037,444,Poor inventory control,2004
+3,457,False,3,rail,August,914,22,Poor inventory control,2014
+9,1345,True,3,airways,May,981,15,Factory shutdown,2010
+15,69,False,0,water,May,831,85,Strike of workers,2003
+4,300,False,16,water,November,520,358,Financial problems of company leading to interrupted supplies,2010
+1,789,False,2,water,September,496,59,electricty stoppage,2003
+4,459,False,24,rail,September,4067,100,Factory shutdown,2013
+5,181,True,2,road,December,326,325,Poor inventory control,2009
+8,2507,False,2,road,December,2761,327,Poor Planning,2018
+16,2869,True,3,airways,February,1182,251,Raw material low,2014
+6,1584,True,25,airways,December,1314,112,Demand Variation,2011
+2,1004,False,14,road,May,1310,65,electricty stoppage,2013
+1,3816,False,7,airways,October,862,92,Transport Delays,2018
+1,776,False,8,airways,March,1647,33,material wastage due to over-feeding,2014
+1,1678,True,3,water,April,590,170,Financial problems of company leading to interrupted supplies,2002
+12,1945,True,3,airways,February,961,21,electricty stoppage,2005
+2,1107,True,4,road,August,970,62,Raw material low,2018
+8,448,False,1,water,May,671,323,Huge backlog of orders,2013
+6,8569,True,1,road,May,564,161,Huge backlog of orders,2002
+2,145,False,6,rail,August,1595,60,excessive machine stoppage,2006
+6,5383,True,10,water,March,3067,91,Poor Lead time calculation,2017
+5,539,False,6,airways,December,515,21,Demand Variation,2014
+9,781,True,33,road,June,690,179,Poor inventory control,2001
+5,3539,True,17,road,February,1354,98,Poor Planning,2002
+8,858,False,6,rail,January,269,86,Transport Delays,2012
+9,1089,False,2,road,July,1156,62,Transport Delays,2014
+10,781,False,6,rail,April,2754,41,Transport Delays,2005
+12,5627,False,18,water,November,492,49,Financial problems of company leading to interrupted supplies,2003
+4,2139,True,0,rail,July,579,27,Strike of workers,2001
+19,432,False,3,road,March,9432,349,Poor Planning,2016
+2,82,True,6,airways,October,716,151,Supply Shortages and logistical uncertainties,2014
+16,1361,False,4,airways,July,954,86,Factory shutdown,2004
+21,708,False,7,rail,January,546,311,Raw material low,2004
+36,2646,True,25,rail,April,303,315,Poor inventory control,2016
+13,1416,False,11,airways,February,1867,97,Supply Shortages and logistical uncertainties,2011
+13,348,True,3,water,March,613,244,Transport Delays,2018
+7,173,True,4,road,July,2038,49,Poor Lead time calculation,2008
+4,1141,True,1,airways,April,2436,46,Transport Delays,2008
+3,8887,False,1,airways,January,1939,320,Financial problems of company leading to interrupted supplies,2011
+3,925,False,25,rail,March,1342,231,Huge backlog of orders,2013
+6,251,True,5,road,August,204,91,Supply Shortages and logistical uncertainties,2008
+1,758,True,3,road,September,1323,19,Poor Planning,2017
+5,37,False,5,road,July,162,6,Poor Planning,2009
+4,603,False,6,road,July,1235,91,Huge backlog of orders,2012
+8,496,True,0,water,May,7431,539,Transport Delays,2010
+4,105,True,7,water,September,1546,886,Huge backlog of orders,2012
+23,942,False,3,rail,May,1456,121,material wastage due to over-feeding,2004
+9,795,True,9,airways,December,1673,122,Poor Planning,2006
+4,1754,True,1,rail,October,1105,5,excessive machine stoppage,2006
+3,809,False,7,rail,November,2588,79,excessive machine stoppage,2002
+4,4354,False,15,rail,March,905,171,Financial problems of company leading to interrupted supplies,2008
+2,2839,True,3,road,May,123,69,Transport Delays,2007
+5,8766,True,0,rail,February,9295,42,Financial problems of company leading to interrupted supplies,2005
+4,2431,True,1,road,May,9025,60,Financial problems of company leading to interrupted supplies,2001
+1,987,True,2,water,August,1871,245,Financial problems of company leading to interrupted supplies,2002
+1,1032,True,2,water,March,5679,5,Strike of workers,2004
+1,1114,False,6,water,April,1071,273,Poor Lead time calculation,2002
+0,12,False,6,airways,May,1557,60,faulty plant layout,2016
+9,326,True,5,water,July,226,32,material wastage due to over-feeding,2012
+30,262,True,4,airways,September,101,125,material wastage due to over-feeding,2014
+1,674,True,8,road,March,1096,83,faulty plant layout,2006
+9,229,True,5,water,February,388,34,Supply Shortages and logistical uncertainties,2005
+0,253,True,2,rail,January,981,227,electricty stoppage,2011
+5,261,True,0,water,April,1548,58,Raw material low,2008
+9,369,False,12,water,August,669,88,Poor Lead time calculation,2018
+21,3861,False,14,water,March,387,105,Financial problems of company leading to interrupted supplies,2017
+3,24,True,40,road,April,1274,634,Financial problems of company leading to interrupted supplies,2009
+3,3511,True,4,rail,November,583,169,electricty stoppage,2012
+22,1680,True,13,road,August,1419,2,Financial problems of company leading to interrupted supplies,2002
+0,583,True,3,road,April,1135,149,Strike of workers,2004
+4,539,True,5,rail,February,286,148,Demand Variation,2008
+4,965,True,2,road,September,3563,8,Transport Delays,2002
+9,1355,False,2,water,October,8057,105,Poor inventory control,2013
+2,406,True,4,rail,June,136,277,material wastage due to over-feeding,2007
+1,165,False,0,rail,July,1480,8,electricty stoppage,2008
+10,3180,False,7,airways,June,541,115,faulty plant layout,2005
+2,1876,False,0,rail,November,951,90,faulty plant layout,2004
+2,4765,False,3,road,June,376,23,electricty stoppage,2018
+18,937,False,9,road,June,999,229,Factory shutdown,2011
+4,1072,True,38,airways,March,1277,226,Poor inventory control,2006
+4,5589,False,1,water,June,3321,2,Transport Delays,2002
+0,3816,True,1,airways,October,6308,72,Huge backlog of orders,2014
+2,597,False,2,rail,September,1090,65,faulty plant layout,2008
+7,455,False,7,water,April,905,14,material wastage due to over-feeding,2013
+5,604,True,20,road,April,545,31,Poor Lead time calculation,2011
+0,314,False,5,airways,July,4556,169,Huge backlog of orders,2012
+7,1482,True,4,road,March,315,7,Raw material low,2001
+3,807,True,11,airways,January,395,73,Factory shutdown,2016
+2,4958,True,10,rail,October,898,99,Financial problems of company leading to interrupted supplies,2017
+7,555,True,8,airways,August,1980,100,Financial problems of company leading to interrupted supplies,2004
+1,1218,True,9,water,July,692,139,Transport Delays,2016
+4,3883,False,8,road,June,1373,165,Poor Planning,2006
+1,458,False,7,road,October,426,61,electricty stoppage,2010
+6,657,False,3,airways,January,1132,485,excessive machine stoppage,2007
+7,943,True,11,rail,July,2068,108,Huge backlog of orders,2014
+24,314,True,29,rail,May,730,328,excessive machine stoppage,2015
+8,587,True,4,water,September,4736,194,Factory shutdown,2010
+1,1135,True,8,water,September,696,148,Demand Variation,2002
+7,1899,False,2,water,July,569,19,electricty stoppage,2002
+9,145,False,24,water,July,1753,50,excessive machine stoppage,2004
+1,661,False,3,road,October,1036,6,material wastage due to over-feeding,2005
+7,4234,False,22,airways,November,3426,128,Poor Planning,2018
+4,523,True,5,road,April,1513,72,Supply Shortages and logistical uncertainties,2018
+12,810,True,1,water,March,729,31,Financial problems of company leading to interrupted supplies,2004
+9,1306,True,4,road,November,540,224,Factory shutdown,2016
+4,1011,True,17,rail,October,5122,159,Poor Planning,2004
+1,1896,True,7,road,February,750,67,Huge backlog of orders,2015
+13,599,True,8,airways,December,552,115,Supply Shortages and logistical uncertainties,2007
+6,489,False,0,airways,July,2434,363,Poor Planning,2011
+0,1087,False,14,airways,August,546,166,electricty stoppage,2013
+6,780,False,4,rail,September,4488,11,excessive machine stoppage,2017
+10,1254,False,38,rail,January,470,101,Poor Lead time calculation,2006
+0,1915,False,11,water,January,280,100,Raw material low,2016
+1,509,True,1,road,December,486,161,Financial problems of company leading to interrupted supplies,2001
+5,1746,False,4,water,November,770,49,Huge backlog of orders,2017
+1,291,True,3,rail,June,651,30,Poor inventory control,2015
+18,1683,True,2,road,May,294,96,Poor Planning,2012
+5,619,False,0,water,May,678,42,Demand Variation,2007
+2,1999,True,3,water,March,1312,492,Poor Lead time calculation,2010
+1,894,True,1,rail,December,1498,75,Raw material low,2016
+27,390,False,9,rail,May,5749,52,Huge backlog of orders,2004
+0,316,False,2,airways,June,1310,75,Raw material low,2008
+5,1111,False,7,road,February,3951,320,Transport Delays,2006
+6,794,True,6,airways,April,611,192,Poor Lead time calculation,2005
+15,198,False,6,road,August,6806,159,Raw material low,2017
+31,170,True,1,water,February,3006,64,Financial problems of company leading to interrupted supplies,2015
+1,210,True,4,road,March,556,14,Transport Delays,2002
+2,313,True,2,airways,April,212,29,electricty stoppage,2016
+4,244,False,6,airways,March,3141,67,faulty plant layout,2005
+1,1087,False,8,road,May,1477,146,Poor Planning,2003
+1,2457,False,5,rail,May,992,133,Poor Lead time calculation,2005
+3,307,False,1,water,November,924,60,Factory shutdown,2004
+0,3283,True,15,road,February,307,112,Poor Lead time calculation,2014
+4,447,True,2,water,December,634,8,Poor inventory control,2013
+10,726,False,1,water,July,3141,31,Factory shutdown,2008
+4,140,False,12,rail,October,1719,79,Financial problems of company leading to interrupted supplies,2014
+3,9023,True,0,road,March,962,90,Supply Shortages and logistical uncertainties,2007
+5,885,False,0,road,May,133,141,excessive machine stoppage,2014
+5,389,False,3,road,October,800,52,Poor Lead time calculation,2010
+3,145,False,4,airways,July,637,74,Supply Shortages and logistical uncertainties,2001
+4,1304,False,7,airways,December,453,97,Strike of workers,2013
+2,680,True,0,airways,May,2611,5,Raw material low,2004
+1,247,False,9,water,September,991,36,Huge backlog of orders,2009
+3,1006,True,4,water,April,300,718,Demand Variation,2003
+2,742,True,33,rail,February,1476,109,faulty plant layout,2015
+0,3710,True,27,airways,April,126,63,faulty plant layout,2004
+5,204,False,28,airways,April,1185,57,faulty plant layout,2018
+0,548,True,2,airways,June,301,271,Huge backlog of orders,2011
+8,176,True,9,road,September,1131,50,faulty plant layout,2007
+1,704,False,10,road,February,485,3,Poor inventory control,2013
+0,518,True,3,rail,November,608,99,electricty stoppage,2012
+8,1470,True,4,water,September,807,486,electricty stoppage,2008
+1,1272,False,3,water,January,1339,18,Demand Variation,2012
+4,963,False,1,road,February,985,21,Supply Shortages and logistical uncertainties,2011
+1,103,True,4,road,July,2234,750,electricty stoppage,2016
+8,4226,False,6,airways,August,7820,417,material wastage due to over-feeding,2009
+2,2375,True,2,airways,October,1741,118,Financial problems of company leading to interrupted supplies,2008
+3,1088,False,9,water,July,164,72,Poor inventory control,2015
+3,3098,True,7,airways,April,1378,539,Financial problems of company leading to interrupted supplies,2011
+6,2298,True,9,road,July,803,269,Strike of workers,2002
+5,773,True,20,water,August,366,705,Financial problems of company leading to interrupted supplies,2013
+14,52,True,0,rail,June,1493,45,Huge backlog of orders,2014
+7,903,True,5,water,December,1656,74,electricty stoppage,2016
+11,465,True,2,water,January,748,269,Supply Shortages and logistical uncertainties,2003
+19,993,False,5,water,August,2028,37,electricty stoppage,2010
+0,671,True,0,rail,September,534,34,Poor Lead time calculation,2013
+10,333,True,5,rail,September,1358,76,Strike of workers,2016
+9,1782,True,1,airways,May,1193,3,electricty stoppage,2001
+7,1960,True,1,airways,August,4820,81,Strike of workers,2013
+3,1646,False,32,water,December,2730,64,Transport Delays,2012
+1,524,True,4,road,May,1578,179,Transport Delays,2008
+4,559,False,6,airways,May,3263,147,electricty stoppage,2006
+0,1212,True,1,airways,May,1905,47,Factory shutdown,2015
+4,647,True,5,airways,January,6282,113,Demand Variation,2006
+4,837,False,5,airways,October,7944,123,Poor Planning,2011
+5,141,False,1,airways,May,770,60,Poor Planning,2003
+4,2233,True,4,road,August,5122,163,Poor Lead time calculation,2001
+12,186,False,0,road,April,1854,190,Strike of workers,2002
+10,6996,True,2,road,May,3195,150,Poor inventory control,2014
+4,2508,True,7,airways,June,278,180,excessive machine stoppage,2006
+0,1049,True,4,water,October,661,104,Raw material low,2007
+7,1389,True,8,water,January,528,87,Huge backlog of orders,2011
+2,217,False,13,airways,July,944,32,Huge backlog of orders,2006
+34,1239,True,5,water,June,1269,50,Factory shutdown,2003
+1,92,True,4,water,December,250,836,electricty stoppage,2004
+5,1645,True,1,road,June,2996,6,Poor Lead time calculation,2010
+6,1135,True,45,road,February,2007,740,Huge backlog of orders,2006
+2,303,True,6,road,April,2182,19,electricty stoppage,2013
+5,293,True,6,airways,May,1785,22,Financial problems of company leading to interrupted supplies,2016
+0,150,True,4,water,September,2344,65,faulty plant layout,2009
+4,1139,False,2,road,July,980,32,Poor inventory control,2009
+4,123,False,11,road,November,957,146,excessive machine stoppage,2011
+25,1398,False,2,water,April,2539,65,excessive machine stoppage,2017
+0,363,True,2,road,July,824,56,faulty plant layout,2009
+20,659,False,5,rail,December,1240,248,Strike of workers,2013
+0,855,True,4,road,October,2197,164,Strike of workers,2015
+37,733,True,5,water,May,3322,80,excessive machine stoppage,2015
+1,486,True,9,road,May,4650,165,Supply Shortages and logistical uncertainties,2007
+6,1585,True,8,water,November,781,80,excessive machine stoppage,2008
+14,103,True,4,water,June,850,10,Poor Planning,2017
+2,82,True,12,road,February,921,30,Poor inventory control,2005
+37,9805,True,5,rail,July,1267,122,Financial problems of company leading to interrupted supplies,2007
+21,243,False,2,rail,July,246,149,Supply Shortages and logistical uncertainties,2010
+0,159,False,33,road,November,1576,154,Raw material low,2007
+7,283,True,4,airways,December,1187,48,Demand Variation,2011
+6,133,True,5,water,January,1690,138,Huge backlog of orders,2003
+9,30,False,1,road,January,1007,833,excessive machine stoppage,2015
+4,43,False,0,road,May,1177,6,Raw material low,2004
+2,677,True,2,airways,February,1518,204,Poor Planning,2015
+0,29,True,6,rail,January,2833,71,Strike of workers,2002
+16,3265,True,6,water,February,357,86,Huge backlog of orders,2001
+11,81,True,12,airways,October,645,205,Raw material low,2017
+10,1066,True,5,rail,June,328,32,Raw material low,2015
+1,487,False,25,road,June,4245,96,Huge backlog of orders,2008
+2,1101,False,5,water,December,3351,80,Financial problems of company leading to interrupted supplies,2017
+12,1352,True,2,airways,September,4505,18,Transport Delays,2018
+1,214,False,6,airways,June,654,54,Demand Variation,2018
+4,1389,False,6,road,April,978,134,Raw material low,2014
+7,1387,True,6,road,June,1129,241,Factory shutdown,2016
+21,1429,False,9,water,July,1985,829,faulty plant layout,2002
+23,959,False,4,water,April,3902,109,excessive machine stoppage,2003
+2,880,False,2,airways,February,2410,76,faulty plant layout,2018
+0,441,True,3,road,February,251,65,Transport Delays,2014
+8,628,False,2,airways,February,3583,44,electricty stoppage,2006
+3,2350,True,0,airways,December,1497,59,Demand Variation,2015
+11,1065,True,3,road,February,4444,99,material wastage due to over-feeding,2009
+19,2728,True,16,rail,December,172,262,Demand Variation,2007
+4,174,False,1,rail,November,1792,54,excessive machine stoppage,2015
+8,2000,False,11,rail,October,1322,159,Poor inventory control,2009
+2,1381,True,7,road,September,961,919,faulty plant layout,2009
+14,188,False,6,rail,April,410,331,faulty plant layout,2006
+3,426,True,4,road,August,1063,13,Strike of workers,2002
+0,902,False,3,airways,September,394,87,Poor Planning,2007
+7,958,True,9,water,May,1141,474,Factory shutdown,2017
+5,530,True,5,airways,October,1245,188,Strike of workers,2011
+3,393,True,3,road,March,1127,329,Transport Delays,2009
+4,1058,False,18,airways,December,985,46,faulty plant layout,2016
+44,783,False,13,road,April,1089,95,faulty plant layout,2007
+3,756,False,4,road,April,255,77,Poor inventory control,2016
+6,84,False,7,water,September,1025,77,Raw material low,2011
+4,81,False,21,water,June,8937,73,Financial problems of company leading to interrupted supplies,2006
+3,690,False,4,rail,March,650,24,Supply Shortages and logistical uncertainties,2006
+4,1212,False,1,road,February,148,18,Poor Planning,2015
+1,1314,True,9,road,September,280,127,Financial problems of company leading to interrupted supplies,2001
+11,588,False,15,rail,October,1895,558,material wastage due to over-feeding,2006
+6,1589,False,5,airways,December,684,430,Poor inventory control,2003
+2,328,False,0,airways,June,6282,100,Transport Delays,2006
+5,998,False,2,airways,May,1739,471,Raw material low,2017
+2,815,True,16,rail,December,1069,296,material wastage due to over-feeding,2014
+1,436,True,4,water,June,904,180,excessive machine stoppage,2013
+6,1106,True,20,airways,February,632,110,electricty stoppage,2006
+3,1149,True,12,airways,March,1381,58,excessive machine stoppage,2016
+9,772,False,1,rail,February,454,106,Financial problems of company leading to interrupted supplies,2013
+7,1041,False,4,rail,September,3729,69,Raw material low,2003
+21,1364,True,3,road,April,1036,61,Poor Planning,2017
+0,1040,True,0,airways,November,1469,437,excessive machine stoppage,2009
+0,976,False,0,rail,January,131,88,Strike of workers,2012
+2,458,True,1,road,October,4139,12,Poor Planning,2016
+5,1076,False,7,water,April,1114,92,Financial problems of company leading to interrupted supplies,2002
+5,805,True,2,road,April,921,372,electricty stoppage,2016
+4,1037,True,4,rail,March,1338,124,faulty plant layout,2015
+2,148,True,3,water,October,1311,485,Poor Lead time calculation,2011
+1,1613,False,4,road,January,300,19,faulty plant layout,2008
+3,3669,False,8,airways,February,390,84,Supply Shortages and logistical uncertainties,2002
+3,1012,True,5,rail,April,878,73,Huge backlog of orders,2005
+5,200,False,3,airways,February,1399,160,Huge backlog of orders,2014
+24,1502,False,30,rail,July,7416,49,Raw material low,2014
+15,699,False,3,water,June,2740,43,Poor Lead time calculation,2010
+5,975,True,4,water,March,736,183,Poor Planning,2005
+0,125,True,1,road,August,663,178,Poor inventory control,2017
+2,1611,False,2,airways,May,1198,761,excessive machine stoppage,2002
+3,690,True,12,rail,June,8340,710,Transport Delays,2017
+2,62,True,7,airways,July,1378,73,Transport Delays,2003
+4,740,False,31,water,April,884,65,excessive machine stoppage,2007
+4,206,True,2,water,October,298,142,Factory shutdown,2007
+1,1411,False,2,rail,April,2007,81,Transport Delays,2014
+6,1802,False,7,water,August,2007,34,Factory shutdown,2006
+9,1857,True,11,road,October,702,178,Poor Planning,2006
+19,895,True,3,rail,March,975,26,Strike of workers,2004
+4,447,True,4,rail,April,4080,34,material wastage due to over-feeding,2010
+9,7540,True,6,airways,March,775,197,Transport Delays,2003
+10,594,False,35,airways,November,577,8,Financial problems of company leading to interrupted supplies,2011
+8,507,False,1,water,January,2113,4,Supply Shortages and logistical uncertainties,2006
+3,1891,False,1,water,November,3026,10,material wastage due to over-feeding,2012
+2,967,True,0,airways,October,396,767,Demand Variation,2016
+34,133,False,0,rail,October,1066,37,Financial problems of company leading to interrupted supplies,2014
+15,1776,False,19,road,September,399,323,material wastage due to over-feeding,2015
+24,2337,False,7,road,December,261,11,Raw material low,2012
+1,2982,True,0,rail,March,371,62,Raw material low,2005
+12,776,True,7,road,March,588,35,material wastage due to over-feeding,2001
+15,35,False,11,airways,August,1772,117,faulty plant layout,2017
+3,1119,True,7,water,May,821,73,Poor inventory control,2016
+8,507,False,2,rail,May,170,98,Financial problems of company leading to interrupted supplies,2016
+16,6234,False,1,road,October,625,836,electricty stoppage,2017
+12,227,False,1,water,October,896,1,Factory shutdown,2016
+2,35,True,1,road,August,2431,812,excessive machine stoppage,2007
+0,2232,False,11,airways,April,4549,60,Factory shutdown,2015
+1,3107,True,1,road,October,183,160,Demand Variation,2007
+4,7970,True,8,water,May,1674,534,Poor Lead time calculation,2011
+3,321,False,1,rail,April,4641,114,Supply Shortages and logistical uncertainties,2004
+1,1728,False,1,airways,February,206,84,Demand Variation,2008
+4,992,False,5,rail,December,3778,150,faulty plant layout,2010
+0,2002,False,15,airways,January,689,91,Financial problems of company leading to interrupted supplies,2008
+3,251,False,4,rail,December,729,7,faulty plant layout,2012
+3,782,True,32,rail,June,754,59,Factory shutdown,2009
+0,4655,False,0,road,September,1899,692,Factory shutdown,2013
+2,677,False,3,water,August,1377,138,electricty stoppage,2006
+9,1168,True,9,road,May,1511,163,material wastage due to over-feeding,2010
+21,615,False,2,airways,January,1201,110,Raw material low,2007
+1,4748,True,42,water,April,1186,78,Poor Planning,2014
+15,769,False,1,road,July,2979,92,excessive machine stoppage,2008
+12,1656,True,2,water,July,359,75,faulty plant layout,2001
+0,2726,False,4,rail,January,3236,29,Demand Variation,2012
+11,207,False,5,water,May,828,96,Transport Delays,2014
+6,4938,False,49,airways,January,563,95,faulty plant layout,2018
+2,62,False,7,rail,March,311,69,excessive machine stoppage,2002
+23,4434,False,5,water,April,2953,115,faulty plant layout,2009
+0,1795,False,2,airways,May,2864,9,Supply Shortages and logistical uncertainties,2016
+2,1067,True,1,airways,August,4348,105,excessive machine stoppage,2016
+1,5914,False,5,water,January,484,86,Poor inventory control,2004
+25,129,True,1,airways,January,343,22,Supply Shortages and logistical uncertainties,2017
+5,427,False,17,water,October,2402,86,material wastage due to over-feeding,2006
+1,293,True,2,road,May,276,139,Demand Variation,2010
+11,2295,True,6,road,December,976,76,Factory shutdown,2011
+33,1436,True,2,rail,February,2627,157,faulty plant layout,2007
+0,3431,True,8,road,March,8645,59,Strike of workers,2009
+2,1871,True,5,water,April,8073,76,excessive machine stoppage,2010
+6,495,False,7,road,July,1298,97,faulty plant layout,2010
+1,713,True,5,road,June,918,4,Huge backlog of orders,2006
+3,2864,False,6,road,April,1082,189,Financial problems of company leading to interrupted supplies,2001
+12,228,False,0,water,January,1569,25,Transport Delays,2010
+3,542,True,16,water,November,784,205,electricty stoppage,2017
+2,1169,True,7,water,April,687,75,Poor Planning,2018
+6,3243,True,1,rail,October,939,76,faulty plant layout,2014
+5,1009,False,4,water,August,1047,186,faulty plant layout,2002
+6,774,True,0,water,January,385,82,Supply Shortages and logistical uncertainties,2011
+5,115,False,18,water,February,1000,429,Transport Delays,2012
+2,726,False,3,water,October,534,29,Supply Shortages and logistical uncertainties,2017
+7,3380,False,37,water,June,949,8,excessive machine stoppage,2014
+1,2835,False,2,road,July,733,217,Strike of workers,2010
+3,1070,False,3,road,July,975,153,material wastage due to over-feeding,2013
+1,410,True,23,road,September,884,43,Huge backlog of orders,2006
+2,597,True,5,water,March,1403,233,Huge backlog of orders,2012
+14,716,True,9,rail,September,912,72,Strike of workers,2006
+8,649,True,2,road,April,293,249,Factory shutdown,2014
+2,823,True,1,road,January,974,340,Poor Lead time calculation,2017
+4,815,True,14,water,January,1423,148,faulty plant layout,2016
+3,1186,True,47,road,June,491,23,Supply Shortages and logistical uncertainties,2004
+2,3156,True,9,water,May,1757,74,faulty plant layout,2004
+1,330,True,5,road,September,135,10,Demand Variation,2013
+9,939,False,0,rail,February,4775,482,Transport Delays,2014
+5,374,False,4,rail,February,916,41,material wastage due to over-feeding,2004
+4,1683,False,7,rail,November,5568,84,Demand Variation,2003
+14,2362,True,12,road,September,677,100,Factory shutdown,2002
+3,9960,True,5,rail,August,512,44,Transport Delays,2012
+3,259,False,5,road,September,881,109,faulty plant layout,2012
+5,866,False,15,road,February,317,68,electricty stoppage,2013
+3,594,True,1,water,September,429,131,faulty plant layout,2016
+2,1634,False,5,airways,May,1048,134,Raw material low,2004
+3,1290,False,1,rail,July,311,88,Supply Shortages and logistical uncertainties,2016

@@ -2,19 +2,26 @@ import pickle
 import pandas as pd
 import numpy as np
 import random
-import keras
+# import keras
 
 #STEP 1
 #load all pickle files and store in a dictionary 
 #{ partName => classifier }
-models = dict()
 
-allParts = ['hdd', 'screen', 'ram', 'laptop', 'server', 'mouse', 'keyboard']
+allParts = ['hdd']
+#, 'screen', 'ram', 'laptop', 'server', 'mouse', 'keyboard'
 
-for part in allParts:
-    loadedModel = pickle.load(open(part + 'stored.sav', 'rb'))
-    models[part] = loadedModel
-    
+def loadModels():
+    models = dict()
+    print("IN LOAD MODELS")
+    for part in allParts:
+        loadedModel = pickle.load(open(part + 'stored.sav', 'rb'))
+        models[part] = loadedModel
+        print(part + " loaded")
+    print("ALL MODELS ARE READY")
+    return models
+
+
 
 #STEP 2
 #Create a function which takes classifier and an input dictionary as the inputs and return the root cause
@@ -39,7 +46,6 @@ rootCauseDict = {
 
 
 def retMAX(predicted_cause):   
-    print(predicted_cause)     
     df_final=pd.DataFrame(predicted_cause)
     rootcause=''
     maxx = -100000
@@ -54,7 +60,7 @@ def retMAX(predicted_cause):
     
 
 def findRootcause(classifier,features):
-    columns=['inventorytofactorydistance','isholiday','modeofdelivery','month','profittocompany','quantity','totalweight','year']
+    columns=['inventorytofactorydistance','isholiday','modeofdelivery','month','profittocompany','quantity','manufacturingtime','year', 'daystilldelivery']
      
     dflist = []
     
@@ -71,25 +77,28 @@ def findRootcause(classifier,features):
     df=np.array(df)
     df=np.reshape(df,(df.shape[0],df.shape[1],1))
     rootcause = classifier.predict(df)
-    return(retMAX(rootcause)) 
+    #will print the root_cause a particular row only
+    return(retMAX(rootcause)) #will be of type string
+
 
 
 def generateRandomInputs():
     features = {
                     'inventorytofactorydistance': random.randint(500, 10000) // random.randint(10, 1000), 
                     'isholiday': random.randint(0, 1),
-                    'modeofdelivery': random.randint(0, 4),
-                    'month': random.randint(0, 12),
-                    'profittocompany': random.randint(1000, 10000000), 
-                    'quantity': random.randint(100, 10000),
-                    'totalweight': random.randint(100, 100000),
+                    'modeofdelivery': random.randint(1, 4),
+                    'month': random.randint(1, 12),
+                    'profittocompany': random.randint(1000, 10000), 
+                    'quantity': random.randint(10, 1000),
+                    'manufacturingtime': random.randint(2, 500),
+                    'daystilldelivery': random.randint(2, 500),
                     'year': random.randint(2000, 2018)
                }
+    print("Random input is generated")
     return features
 
 
-def getRootCause(part):
-    classifier = models[part]
+def getRootCause(classifier, part):
     features = generateRandomInputs()
     return findRootcause(classifier, features)
 
@@ -100,4 +109,9 @@ def getRootCause(part):
 
 def findAction(root):
     action={'Strike of workers':'increase wage','Poor Lead time calculation':'recalculate supply and reorder time','electricty stoppage':'install more generators','Transport Delays':'move inventory','Demand Variation':'recalculate demand curve','Supply Shortages and logistical uncertainties':'improve logistics','excessive machine stoppage':'increase staff communication','Poor Planning':'improve project management','Raw material low':'increase production','Poor inventory control':'monitor inventory','faulty plant layout':'Look into the issue and fix plant','material wastage due to over-feeding':'increase staff communication','Factory shutdown':'move inventory','Huge backlog of orders':'increase production','Financial problems of company leading to interrupted supplies':'limit orders'}
-    return action.get(root)
+    return action.get(root) 
+
+
+
+MODELS = loadModels()
+print("ROOT CAUSE: " + getRootCause(MODELS['hdd'], 'hdd'))

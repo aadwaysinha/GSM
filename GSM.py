@@ -15,6 +15,10 @@ import helper
 import integration
 
 
+#global variable for all models
+MODELS = dict()
+
+
 # Init app
 app = Flask(__name__)
 app.secret_key = 'monkeyclimbsatree,dontmesswithme'
@@ -34,16 +38,26 @@ def search():
         requirement = {'searchCategory': searchCategory, 'searchKeyword': searchKeyword}
         return helper.bringDataSet(requirement)
     else:
-        return 'Form not working'
+        return render_template('Unexpected.html')
 
 
 # Root cause analysis
-@app.route('/findrootcause', methods = ['GET', 'POST'])
-def search():
-    if request.method == 'POST:
+@app.route('/findrootcause', methods = ['POST', 'GET'])
+def findrootcause():
+    if request.method == 'POST':
         part = request.form['partType']
-        rootCause = getRootCause
-
+        print('PART: ' + part)
+        print("TYPE: ", type(part))
+        print("MODEL: ", MODELS[part])
+        rootCause = integration.getRootCause(MODELS[part], part)
+        action = integration.findAction(rootCause)
+        result = dict()
+        result['rootCause'] = rootCause
+        result['action'] = action
+        jsonedRCNA = json.dumps(result)
+        return jsonedRCNA
+    else:
+        return render_template('Unexpected.html')
 
 
 # Flask setup
@@ -98,4 +112,10 @@ def dummy_method(file_stream):
 
 # Main method
 if __name__ == "__main__":
-    app.run(host='127.0.0.1', port=8080, debug=True)
+    print("GOING TO LOAD MODELS NOW")
+    models = integration.loadModels()
+    MODELS = models
+    print(MODELS)
+    rc = integration.getRootCause(MODELS['hdd'], 'hdd')
+    print("ROOT CAUSE: " + rc)
+    app.run (host='127.0.0.1', port=8080, debug=True)

@@ -2,18 +2,25 @@ import pandas as pd
 import random
 
 
-allFeatures = ['month', 'year', 'isholiday', 'quantity', 'profittocompany',
-               'inventorytofactorydistance', 'totalweight', 'modeofdelivery', 'rootcause']
+allFeatures = ['month', 'year', 'isholiday', 'quantity', 'profittocompany', 'manufacturingtime',
+               'daystilldelivery', 'inventorytofactorydistance', 'modeofdelivery', 'rootcause']
 
 
-def getRandomList(maxLimit):
+def getRandomList(minLimit, maxLimit):
     row = list()
 
     for i in range(10000):
-        row.append(random.randint(700, maxLimit)//random.randint(10, 1000))
+        row.append(random.randint(minLimit, maxLimit) // random.randint(1, 10))
 
     return row
 
+
+def randomizeProfit(quantity):
+    profit = quantity
+    randMult = random.randint(1,5)
+    for i in range(len(quantity)):
+        profit[i] = quantity[i] * randMult
+    return profit
 
 randomValues = {
                     'month': ["January","February","March","April","May","June","July","August","September","October","November","December"],
@@ -23,13 +30,15 @@ randomValues = {
                     
                     'isholiday': [True, False],
                     
-                    'quantity': getRandomList(10000), 
+                    'quantity': getRandomList(10, 1000), #quantity of good in the delivery batch
                     
-                    'profittocompany': getRandomList(10000000), #in Rs
+                    'profittocompany': getRandomList(1000, 10000),
                     
-                    'inventorytofactorydistance': getRandomList(10000), #in KM
+                    'inventorytofactorydistance': getRandomList(50, 10000), #in KM
                     
-                    'totalweight': getRandomList(1000000), #in KG
+                    'manufacturingtime': getRandomList(2, 50),
+                    
+                    'daystilldelivery': getRandomList(2, 50),
                     
                     'modeofdelivery': ['water', 'rail', 'road', 'airways'],
                     
@@ -48,8 +57,7 @@ randomValues = {
                                  "Factory shutdown",
                                  "Financial problems of company leading to interrupted supplies",
                                  "Transport Delays"]
-               }
-
+               } 
 
 def appendRow():
     row = dict()
@@ -74,8 +82,10 @@ for part in allParts:
     filename = part + '.csv'
     df.to_csv(filename, index = False)    
 
+mouseDF = pd.read_csv('Mouse.csv')
 
 
+############################# STORING MODELS ################################
 
 import pandas as pd
 from keras.models import Sequential
@@ -87,18 +97,6 @@ import random
 import time
 import numpy as np
 from datetime import datetime
-
-
-
-def randomDate():
-    frmt = '%d-%m-%Y'
-    
-    stime = time.mktime(time.strptime('20-01-2018', frmt))
-    etime = time.mktime(time.strptime('23-01-2001', frmt))
-    
-    ptime = stime + random.random() * (etime - stime)
-    dt = datetime.fromtimestamp(time.mktime(time.localtime(ptime)))
-    return dt
 
 
 rootCauseDict = {
@@ -118,6 +116,15 @@ rootCauseDict = {
                      13:"Financial problems of company leading to interrupted supplies",
                  }
 
+def randomDate():
+    frmt = '%d-%m-%Y'
+   
+    stime = time.mktime(time.strptime('20-01-2018', frmt))
+    etime = time.mktime(time.strptime('23-01-2001', frmt))
+   
+    ptime = stime + random.random() * (etime - stime)
+    dt = datetime.fromtimestamp(time.mktime(time.localtime(ptime)))
+    return dt
 
 def create_model(data):                
     #data=pd.read_csv("Keyboard.csv")
@@ -125,58 +132,63 @@ def create_model(data):
     data['date']=0
     for index,row in data.iterrows():
         data.loc[index,'date']=randomDate().date()#("20-01-2018", "23-01-2018").date()
-        
+       
     data['date'] = pd.to_datetime(data['date'])
-    
+   
     data=data.drop('month',axis=1)
-    
+   
     data=data.drop('year',axis=1)
-    
+   
     data.columns
-    data=data[['date','inventorytofactorydistance', 'isholiday', 'modeofdelivery',
-           'profittocompany', 'quantity', 'rootcause', 'totalweight']]
-    
+    data=data[['date','daystilldelivery','inventorytofactorydistance', 'isholiday','manufacturingtime','modeofdelivery',
+               'profittocompany', 'quantity', 'rootcause']]
+   
     df=data.copy()
-    
+   
     df=df.set_index('date')
-    
-    
-    ###### VISUALIZATIONS ##########
-#    df.plot(grid=True)
-#    
-#    import seaborn as sns
-#    # Use seaborn style defaults and set the default figure size
-#    sns.set(rc={'figure.figsize':(11, 4)})
-#    df['profittocompany'].plot(linewidth=0.5)
-    
-    
-    
+   
+   
+    ####### VISUALIZATIONS ##########
+    #df.plot(grid=True)
+    #
+    #import matplotlib.pyplot as plt
+    #import seaborn as sns
+    ## Use seaborn style defaults and set the default figure size
+    #sns.set(rc={'figure.figsize':(11, 4)})
+    #df['profitocompany'].plot(linewidth=0.5)
+   
+   
+   
     ##################################
-    
+   
     df1 = pd.get_dummies(df['modeofdelivery'])
-    
+   
     df=pd.concat([df,df1],axis=1)
-    
+   
     df=df.drop('modeofdelivery',axis=1)
-    
+   
     df=df.drop('rail',axis=1)
-    
-    
+   
+   
     df.columns
-    
-    
-    df=df[['inventorytofactorydistance', 'isholiday', 'profittocompany',
-           'quantity', 'totalweight', 'airways', 'road', 'water', 'rootcause']]
-    
-    
-    x= df.iloc[:, 0:8]
+   
+    #Old
+    #df=df[['date', 'InventoryToFactoryDistance', 'IsHoliday', 'ProfitToCompany',
+    #      'Quantity', 'TotalWeight', 'Airways', 'Road', 'Water', 'RootCause']]
+   
+    df=df[['daystilldelivery','inventorytofactorydistance', 'isholiday','manufacturingtime', 'profittocompany',
+           'quantity','airways', 'road', 'water','rootcause']]
+   
+   
+    x= df.iloc[:, 0:9]
     y= df.iloc[:,-1:]
-    
-    x['isholiday']=x['isholiday'].astype(int) 
-    
+   
+    x['isholiday']=x['isholiday'].astype(int)
+   
     y = pd.get_dummies(y['rootcause'])
     y=y.drop('Poor Planning',axis=1)
-    
+
+   
     from sklearn.preprocessing import StandardScaler
     sc_X = StandardScaler()
     x_training_set_scaled = sc_X.fit_transform(x)
@@ -185,57 +197,60 @@ def create_model(data):
     #x_training_set_scaled['date']=x['date']
     sc_Y = StandardScaler()
     y_training_set_scaled=sc_Y.fit_transform(y)
-    
-    
+   
+   
     #from sklearn.cross_validation import train_test_split
     from sklearn.cross_validation import train_test_split
     X_train, X_test, y_train, y_test = train_test_split(x_training_set_scaled, y_training_set_scaled, test_size = 1/3, random_state = 0)
-    
+   
     X_train = []
     y_train = []
      
-    
+   
     #Converting into array
-    X_train = np.array(x_training_set_scaled) 
+    X_train = np.array(x_training_set_scaled)
     y_train = np.array(y_training_set_scaled)
-    
+   
     #adding the third dimension
     X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1], 1))
     X_test = np.reshape(X_test, (X_test.shape[0], X_test.shape[1], 1))
-    
-#    #Importing libraties for the LSTM model
-#    from keras.models import Sequential
-#    from keras.layers import Dense
-#    from keras.layers import LSTM
-#    from keras.layers import Dropout
-    
+   
+    #Importing libraties for the LSTM model
+    from keras.models import Sequential
+    from keras.layers import Dense
+    from keras.layers import LSTM
+
+    from keras.layers import Dropout
+   
     # Initialising the RNN
     classifier = Sequential()
-    
-    # Adding the first LSTM layer 
+   
+    # Adding the first LSTM layer
     #X_train.shape
     classifier.add(LSTM(units = 50, return_sequences = True, input_shape = (X_train.shape[1], 1)))
-    
-    # Adding a second LSTM layer 
+   
+    # Adding a second LSTM layer
     classifier.add(LSTM(units = 50, return_sequences = True))
-    
-    # Adding a third LSTM layer 
+   
+    # Adding a third LSTM layer
     classifier.add(LSTM(units = 50, return_sequences = True))
-    
+   
     # Adding a fourth LSTM layer
     classifier.add(LSTM(units = 50))
-    
+   
     # Adding the output layer
     classifier.add(Dense(units = 14))
-    
+   
     # Compiling the RNN
     classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy')
-    
-    classifier.fit(X_train, y_train, epochs = 100, batch_size = 32)
+   
+    classifier.fit(X_train, y_train, epochs = 10, batch_size = 32)
 #            predicted_cause = classifier.predict(X_test)
 #            predicted_cause = sc.inverse_transform(predicted_cause)
-    
+   
     return classifier
+
+
 
 
 def retMAX(predicted_cause):   
@@ -254,7 +269,7 @@ def retMAX(predicted_cause):
     
 
 def findRootcause(classifier,features):
-    columns=['inventorytofactorydistance','isholiday','modeofdelivery','month','profittocompany','quantity','totalweight','year']
+    columns=['inventorytofactorydistance','isholiday','modeofdelivery','month','profittocompany','quantity','manufacturingtime','year', 'daystilldelivery']
      
     dflist = []
     
@@ -288,7 +303,7 @@ dataSets =  {
                 'keyboard': pd.read_csv('Keyboard.csv')
             }
 
-
+#hello = dataSets['server']
 
 def preComputeModels():
     models = {}
@@ -308,11 +323,17 @@ features = {
                 'month': 11,
                 'profittocompany':251, 
                 'quantity': 4233,
-                'totalweight': 2134,
-                'year': 2017
+                'manufacturingtime': 2134,
+                'year': 2017,
+                'daystilldelivery': 12
            } 
 
 #Test for a single model
+
+t1111 = pd.read_csv('Keyboard.csv')
+c1111 = create_model(t1111)
+
+rc = findRootcause(c1111, features)
 
 df111 = pd.read_csv('Screen.csv')
 
@@ -350,14 +371,6 @@ storeModels()
 
 import pandas as pd
 import numpy as np
-
-
-
-
-
-
-
-
 
 
 

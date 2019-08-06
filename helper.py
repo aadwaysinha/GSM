@@ -19,7 +19,7 @@ def convertDFtoJsonTable(DF):
 
 
 def bringDataSet(requirements):
-
+    
     keyword = requirements['searchKeyword']
     category = requirements['searchCategory']
 
@@ -61,5 +61,3 @@ def bringDataSet(requirements):
 
     jsonedDF = json.dumps(newTable)
     return jsonedDF
-    
-
